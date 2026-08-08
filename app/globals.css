@@ -79,8 +79,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:300;display:flex;align-items:cen
 
 /* ── HERO (home) ── */
 .hero{position:relative;min-height:100vh;background:var(--night);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background-image:url('/images/hero-pyramid.jpg');background-size:cover;background-position:center 45%;opacity:0.5;filter:saturate(0.85)}
-.hero-grad{position:absolute;inset:0;background:radial-gradient(ellipse 1200px 800px at 72% 30%,rgba(20,29,19,0.35) 0%,var(--night) 78%)}
+.hero-bg{position:absolute;inset:0;background-image:url('/images/hero-pyramid.jpg');background-size:cover;background-position:center 40%;filter:brightness(.95) saturate(.95)}
+.hero-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,16,12,.35) 0%,rgba(11,16,12,.1) 30%,rgba(11,16,12,.25) 55%,rgba(11,16,12,.75) 85%,var(--night) 100%)}
 .hero-in{position:relative;z-index:3;max-width:1180px;margin:0 auto;padding:120px 3rem 150px;width:100%}
 .hol{display:flex;align-items:center;gap:14px;margin-bottom:1.6rem}
 .hol .ey-b{width:34px}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
@@ -40,6 +41,15 @@ export default function ServicesPage() {
 
       <section className="sec">
         <div className="w">
+          <div className="center r" style={{ maxWidth: 520, margin: '0 auto 4rem' }}>
+            <Image
+              src="/images/serpent-divider.jpg"
+              alt=""
+              width={520}
+              height={130}
+              style={{ opacity: 0.9, width: '100%', height: 'auto' }}
+            />
+          </div>
           <ServiceTabs />
         </div>
       </section>

@@ -40,6 +40,17 @@ export default function ServiceTabs() {
             {cluster.items.map((item) => (
               <div className="scope-row" key={item.title}>
                 <div>
+                  <div
+                    style={{
+                      fontFamily: 'var(--serif)',
+                      fontStyle: 'italic',
+                      fontSize: '0.85rem',
+                      color: 'var(--gold-dim)',
+                      marginBottom: '0.3rem'
+                    }}
+                  >
+                    {item.num}
+                  </div>
                   <div className="srk">{item.title}</div>
                   <div className="srtags">
                     {item.pillars.map((p) => (

@@ -86,6 +86,13 @@ export default function FrameworkPage() {
 
       <section className="quote-sec">
         <div className="w">
+          <Image
+            src="/images/shell.jpg"
+            alt=""
+            width={72}
+            height={72}
+            style={{ margin: '0 auto 2rem', mixBlendMode: 'screen', filter: 'brightness(1.2)' }}
+          />
           <blockquote className="quote">
             “{quoteLines[0]}
             <br />
