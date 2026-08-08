@@ -16,15 +16,7 @@ export default function Nav() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
@@ -40,14 +32,14 @@ export default function Nav() {
 
   return (
     <>
-      <nav id="nav" className={scrolled ? 'scrolled' : ''} aria-label="Primary">
+      <nav aria-label="Primary">
         <Link href="/" className="nav-logo" aria-label={t('logoAria')}>
           OLLIN
         </Link>
         <div className="nav-right">
           <ul className="nav-links">
             {NAV_ITEMS.map((item) => (
-              <li key={item.href}>
+              <li key={item.href} style={{ display: 'inline' }}>
                 <Link href={item.href} className={pathname === item.href ? 'active' : ''}>
                   {t(item.key)}
                 </Link>
@@ -62,7 +54,7 @@ export default function Nav() {
           </Link>
         </div>
         <button
-          className={`menu-btn${open ? ' open' : ''}`}
+          className="menu-btn"
           aria-label="Menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}

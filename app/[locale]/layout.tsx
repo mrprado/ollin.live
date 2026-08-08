@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Cinzel, Cormorant_Garamond, Inter } from 'next/font/google';
+import { Cormorant_Garamond, Instrument_Sans } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -8,13 +8,8 @@ import '../globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
-
-const cinzel = Cinzel({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  variable: '--font-display',
-  display: 'swap'
-});
+import LegalModalProvider from '@/components/LegalModalProvider';
+import CookieBanner from '@/components/CookieBanner';
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ['latin'],
@@ -24,9 +19,9 @@ const cormorantGaramond = Cormorant_Garamond({
   display: 'swap'
 });
 
-const inter = Inter({
+const instrumentSans = Instrument_Sans({
   subsets: ['latin'],
-  weight: ['300', '400', '500'],
+  weight: 'variable',
   variable: '--font-sans',
   display: 'swap'
 });
@@ -73,7 +68,7 @@ export async function generateMetadata({
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0b1a0e'
+  themeColor: '#0b100c'
 };
 
 export default async function LocaleLayout({
@@ -90,7 +85,7 @@ export default async function LocaleLayout({
   const t = await getTranslations('nav');
 
   return (
-    <html lang={locale} className={`${cinzel.variable} ${cormorantGaramond.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${cormorantGaramond.variable} ${instrumentSans.variable}`}>
       <head>
         <script
           type="application/ld+json"
@@ -129,13 +124,16 @@ export default async function LocaleLayout({
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <a href="#intake" className="skip-link">
-            {t('skipToInquiry')}
-          </a>
-          <Nav />
-          <main id="main">{children}</main>
-          <Footer />
-          <ScrollReveal />
+          <LegalModalProvider>
+            <a href="#intake" className="skip-link">
+              {t('skipToInquiry')}
+            </a>
+            <Nav />
+            <main id="main">{children}</main>
+            <Footer />
+            <CookieBanner />
+            <ScrollReveal />
+          </LegalModalProvider>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,4 +1,30 @@
 {
+  "legal": {
+    "notice": {
+      "label": "Important Notice",
+      "title": "Important Notice",
+      "body1": "Ollin provides integrative health education, daily practice design, and regenerative living guidance. Ollin is not a licensed medical, psychological, or clinical practice, and does not diagnose, treat, or cure any condition.",
+      "body2": "Information shared through this site and its intake forms is for educational and consultative purposes only and does not replace care from a licensed physician or other qualified health provider. Always consult a qualified professional before making changes to your health, nutrition, or medical care.",
+      "seeAlso": "See also our <privacy>Privacy</privacy> and <cookies>Cookie</cookies> statements."
+    },
+    "privacy": {
+      "label": "Privacy",
+      "title": "Privacy",
+      "body1": "We collect the information you provide through our inquiry forms, including health-related information you choose to share, and use it only to review your inquiry, respond to you, and provide the consultation you requested.",
+      "body2": "We do not sell your information or share it with third parties for their own marketing purposes. Submitted information is stored securely and reviewed personally by Alan Prado.",
+      "body3": "You may request access to, correction of, or deletion of your information by contacting hello@ollin.bio."
+    },
+    "cookies": {
+      "label": "Cookies",
+      "title": "Cookies",
+      "body1": "This website uses essential cookies only: a single preference that remembers you have seen this notice, and your chosen language. We do not use advertising, tracking, or analytics cookies that identify you personally."
+    },
+    "close": "Close",
+    "banner": "This website uses essential cookies only. By continuing you acknowledge our Important Notice regarding the nature of Ollin's services.",
+    "readNotice": "Read Notice",
+    "accept": "Accept",
+    "consent": "I understand this is educational guidance, not medical diagnosis or treatment, and I consent to being contacted about my inquiry."
+  },
   "meta": {
     "title": "Ollin · Integrative Health & Regenerative Living · Alan Prado",
     "description": "Consultations in integrative health, daily practice, spatial health, and regenerative land and development. Ayurveda, Vastu Shastra, Kalari, and regenerative ecology applied across self, family, home, and land.",
@@ -28,7 +54,16 @@
       "l2": "Regenerative Living",
       "sub": "An integrated practice of health, place, and ecology.",
       "ctaServices": "View Services",
-      "ctaInquiry": "Begin an Inquiry"
+      "ctaInquiry": "Begin an Inquiry",
+      "trust": {
+        "label": "Ollin at a Glance",
+        "stats": [
+          { "value": "9", "label": "Consultations Offered" },
+          { "value": "6", "label": "Scales of Practice" },
+          { "value": "3", "label": "Levels of Practice" },
+          { "value": "2", "label": "Languages Spoken" }
+        ]
+      }
     },
     "opening": {
       "lede": "Most approaches to health, development, and ecology address one domain at a time.",

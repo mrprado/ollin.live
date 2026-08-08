@@ -27,18 +27,23 @@ export default function BackgroundPage() {
   return (
     <div>
       <div className="page-head">
-        <span className="eyebrow center rule-r">{t('eyebrow')}</span>
-        <h1>{t('title')}</h1>
-        <p className="ph-sub">{t('sub')}</p>
+        <div className="w">
+          <div className="ey lt">
+            <div className="ey-b"></div>
+            <span>{t('eyebrow')}</span>
+          </div>
+          <h1>{t('title')}</h1>
+          <p className="ph-sub">{t('sub')}</p>
+        </div>
       </div>
 
-      <section className="disciplines" id="disciplines">
-        <div className="wrap">
-          <div className="disc-grid">
+      <section className="sec sec-d">
+        <div className="w">
+          <div className="disc-strip r">
             {disciplines.map((d) => (
-              <div className={`disc${d.full ? ' full' : ''} reveal`} key={d.name}>
-                <div className="disc-name">{d.name}</div>
-                <p>{d.body}</p>
+              <div className={`disc-c${d.full ? ' full' : ''}`} key={d.name}>
+                <div className="en">{d.name}</div>
+                <div className="ex">{d.body}</div>
               </div>
             ))}
           </div>
@@ -46,11 +51,13 @@ export default function BackgroundPage() {
       </section>
 
       <section className="cta-band">
-        <h2>{t('cta.title')}</h2>
-        <p>{t('cta.body')}</p>
-        <Link href="/#intake" className="btn btn-gold">
-          {tn('beginInquiry')}
-        </Link>
+        <div className="w">
+          <h2>{t('cta.title')}</h2>
+          <p>{t('cta.body')}</p>
+          <Link href="/#intake" className="btn btn-gold">
+            {tn('beginInquiry')}
+          </Link>
+        </div>
       </section>
     </div>
   );

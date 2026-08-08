@@ -7,8 +7,10 @@ import { getInquiryFields, type InquiryPath } from '@/lib/inquiryFormFields';
 export default function InquiryForm({ path }: { path: InquiryPath }) {
   const locale = useLocale();
   const t = useTranslations('forms');
+  const tl = useTranslations('legal');
   const fields = getInquiryFields(locale, path);
   const [values, setValues] = useState<Record<string, string>>({});
+  const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   function setValue(key: string, value: string) {
@@ -18,12 +20,13 @@ export default function InquiryForm({ path }: { path: InquiryPath }) {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (values.company) return; // honeypot tripped, silently drop
+    if (!consent) return;
     setStatus('submitting');
     try {
       const res = await fetch('/api/inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ path, locale, fields: values })
+        body: JSON.stringify({ path, locale, fields: values, consent })
       });
       if (!res.ok) throw new Error('request failed');
       setStatus('success');
@@ -111,10 +114,19 @@ export default function InquiryForm({ path }: { path: InquiryPath }) {
 
       <p className="fnote">{t(`${path}.note`)}</p>
 
+      <label className="consent">
+        <input
+          type="checkbox"
+          checked={consent}
+          onChange={(e) => setConsent(e.target.checked)}
+        />
+        <span>{tl('consent')}</span>
+      </label>
+
       {status === 'error' && <p className="form-msg error">{t('errorMessage')}</p>}
 
       <div className="fg full">
-        <button className="btn-submit" type="submit" disabled={status === 'submitting'}>
+        <button className="btn-submit" type="submit" disabled={status === 'submitting' || !consent}>
           {status === 'submitting' ? t('submitting') : t('submit')}
         </button>
       </div>

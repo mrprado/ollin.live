@@ -29,50 +29,61 @@ export default function AboutPage() {
   return (
     <div>
       <div className="page-head">
-        <span className="eyebrow center rule-r">{t('eyebrow')}</span>
-        <h1>{t('title')}</h1>
-        <p className="ph-sub">{t('sub')}</p>
+        <div className="w">
+          <div className="ey lt">
+            <div className="ey-b"></div>
+            <span>{t('eyebrow')}</span>
+          </div>
+          <h1>{t('title')}</h1>
+          <p className="ph-sub">{t('sub')}</p>
+        </div>
       </div>
 
-      <section className="about" id="about">
-        <div className="about-inner">
-          <div className="reveal">
+      <section className="sec">
+        <div className="w">
+          <div className="about-inner r">
             <Image
               className="about-img"
               src="/images/alan-portrait.jpg"
               alt={t('heading')}
-              width={320}
-              height={400}
+              width={420}
+              height={520}
               priority
             />
-          </div>
-          <div className="reveal about-text">
-            <h2>{t('heading')}</h2>
-            {paragraphs.map((p) => (
-              <p className="body-copy" key={p.slice(0, 40)}>
-                {p}
-              </p>
-            ))}
-            <br />
-            <Link href="/#intake" className="btn btn-gold">
-              {tn('beginInquiry')}
-            </Link>
+            <div className="about-text">
+              <h2 className="h3" style={{ marginBottom: '1.2rem' }}>
+                {t('heading')}
+              </h2>
+              {paragraphs.map((p) => (
+                <p key={p.slice(0, 40)}>{p}</p>
+              ))}
+              <Link href="/#intake" className="btn btn-gold" style={{ marginTop: '0.8rem' }}>
+                {tn('beginInquiry')}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="teachers-sec">
-        <div className="wrap">
-          <div className="center reveal">
-            <span className="eyebrow center rule-r">{t('teachersEyebrow')}</span>
-            <h2 className="section-title">{t('teachersTitle')}</h2>
-            <p className="body-copy" style={{ maxWidth: 540, margin: '1.1rem auto 0', fontSize: '.96rem' }}>
-              {t('teachersSub')}
-            </p>
+      <section className="sec sec-d">
+        <div className="w">
+          <div className="split center-head r">
+            <div>
+              <div className="ey lt center">
+                <div className="ey-b"></div>
+                <span>{t('teachersEyebrow')}</span>
+              </div>
+              <h2 className="h2" style={{ color: 'var(--cream)' }}>
+                {t('teachersTitle')}
+              </h2>
+              <p className="lede" style={{ margin: '0.8rem auto 0', color: 'rgba(214,231,203,0.55)' }}>
+                {t('teachersSub')}
+              </p>
+            </div>
           </div>
-          <div className="teachers-grid">
+          <div className="teachers r d1">
             {teachers.map((teacher) => (
-              <div className="teacher reveal" key={teacher.name}>
+              <div className="teacher" key={teacher.name}>
                 <Image src={`/images/${teacher.image}.jpg`} alt={teacher.alt} width={400} height={400} />
                 <div className="teacher-body">
                   <div className="teacher-name">{teacher.name}</div>
@@ -86,11 +97,13 @@ export default function AboutPage() {
       </section>
 
       <section className="cta-band">
-        <h2>{t('cta.title')}</h2>
-        <p>{t('cta.body')}</p>
-        <Link href="/#intake" className="btn btn-gold">
-          {tn('beginInquiry')}
-        </Link>
+        <div className="w">
+          <h2>{t('cta.title')}</h2>
+          <p>{t('cta.body')}</p>
+          <Link href="/#intake" className="btn btn-gold">
+            {tn('beginInquiry')}
+          </Link>
+        </div>
       </section>
     </div>
   );

@@ -29,10 +29,7 @@ git commit -m "Initial commit: Ollin.live Next.js site"
 
 ## GitHub
 
-1. Create a new, empty GitHub repository (name/account: to be decided — not the same
-   repo as `regenera.bio`).
-2. `git remote add origin <url>`
-3. `git push -u origin main`
+Done — `github.com/mrprado/ollin.live`, `main` branch, working tree clean.
 
 ## Database (Supabase)
 
@@ -47,6 +44,7 @@ git commit -m "Initial commit: Ollin.live Next.js site"
      name text,
      email text not null,
      answers jsonb not null,
+     consent boolean not null default false,
      created_at timestamptz not null default now()
    );
 

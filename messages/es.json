@@ -1,4 +1,30 @@
 {
+  "legal": {
+    "notice": {
+      "label": "Aviso Importante",
+      "title": "Aviso Importante",
+      "body1": "Ollin ofrece educación en salud integrativa, diseño de práctica diaria y orientación de vida regenerativa. Ollin no es una práctica médica, psicológica o clínica con licencia, y no diagnostica, trata ni cura ninguna condición.",
+      "body2": "La información compartida a través de este sitio y sus formularios de consulta es solo para fines educativos y de orientación, y no sustituye la atención de un médico con licencia u otro proveedor de salud calificado. Consulta siempre a un profesional calificado antes de hacer cambios en tu salud, nutrición o atención médica.",
+      "seeAlso": "Consulta también nuestros avisos de <privacy>Privacidad</privacy> y <cookies>Cookies</cookies>."
+    },
+    "privacy": {
+      "label": "Privacidad",
+      "title": "Privacidad",
+      "body1": "Recopilamos la información que proporcionas a través de nuestros formularios de consulta, incluyendo información relacionada con la salud que decidas compartir, y la usamos únicamente para revisar tu consulta, responderte y brindarte la consulta solicitada.",
+      "body2": "No vendemos tu información ni la compartimos con terceros para fines de marketing propios. La información enviada se almacena de forma segura y es revisada personalmente por Alan Prado.",
+      "body3": "Puedes solicitar acceso, corrección o eliminación de tu información escribiendo a hello@ollin.bio."
+    },
+    "cookies": {
+      "label": "Cookies",
+      "title": "Cookies",
+      "body1": "Este sitio web utiliza únicamente cookies esenciales: una preferencia que recuerda que has visto este aviso, y tu idioma elegido. No utilizamos cookies de publicidad, rastreo o análisis que te identifiquen personalmente."
+    },
+    "close": "Cerrar",
+    "banner": "Este sitio web utiliza únicamente cookies esenciales. Al continuar, reconoces nuestro Aviso Importante sobre la naturaleza de los servicios de Ollin.",
+    "readNotice": "Leer Aviso",
+    "accept": "Aceptar",
+    "consent": "Entiendo que esto es orientación educativa, no diagnóstico ni tratamiento médico, y doy mi consentimiento para que me contacten sobre mi consulta."
+  },
   "meta": {
     "title": "Ollin · Salud Integrativa y Vida Regenerativa · Alan Prado",
     "description": "Consultas en salud integrativa, práctica diaria, salud espacial, y tierra y desarrollo regenerativos. Ayurveda, Vastu Shastra, Kalari y ecología regenerativa aplicados a través del ser, la familia, el hogar y la tierra.",
@@ -28,7 +54,16 @@
       "l2": "Vida Regenerativa",
       "sub": "Una práctica integrada de salud, espacio y ecología.",
       "ctaServices": "Ver Servicios",
-      "ctaInquiry": "Iniciar una Consulta"
+      "ctaInquiry": "Iniciar una Consulta",
+      "trust": {
+        "label": "Ollin en Números",
+        "stats": [
+          { "value": "9", "label": "Consultas Ofrecidas" },
+          { "value": "6", "label": "Escalas de Práctica" },
+          { "value": "3", "label": "Niveles de Práctica" },
+          { "value": "2", "label": "Idiomas Disponibles" }
+        ]
+      }
     },
     "opening": {
       "lede": "La mayoría de los enfoques de salud, desarrollo y ecología abordan un solo ámbito a la vez.",

@@ -27,9 +27,16 @@ export async function POST(req: Request) {
   const path = String(body.path ?? '') as InquiryPath;
   const locale = body.locale === 'es' ? 'es' : 'en';
   const fields = (body.fields ?? {}) as Record<string, unknown>;
+  const consent = Boolean(body.consent);
 
   if (!INQUIRY_PATHS.includes(path)) {
     return NextResponse.json({ ok: false, error: 'Unknown inquiry path.' }, { status: 400 });
+  }
+  if (!consent) {
+    return NextResponse.json(
+      { ok: false, error: 'Please confirm the acknowledgement above so we can process your inquiry.' },
+      { status: 400 }
+    );
   }
 
   // Honeypot: real users never populate this field. If it's set, the
@@ -75,7 +82,8 @@ export async function POST(req: Request) {
     locale,
     name: name || null,
     email,
-    answers
+    answers,
+    consent
   });
 
   if (dbError) {

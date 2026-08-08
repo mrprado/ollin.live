@@ -11,19 +11,26 @@ export default function IntakeSection() {
   const [active, setActive] = useState<InquiryPath>('health');
 
   return (
-    <section className="intake" id="intake">
-      <div className="intake-inner">
-        <div className="center reveal">
-          <span className="eyebrow center rule-r">{t('eyebrow')}</span>
-          <h2 className="section-title">{t('title')}</h2>
-          <p className="intake-sub">{t('sub')}</p>
+    <section className="intake sec-d" id="intake">
+      <div className="w">
+        <div className="intake-head r">
+          <div className="ey lt center">
+            <div className="ey-b"></div>
+            <span>{t('eyebrow')}</span>
+          </div>
+          <h2 className="h2" style={{ color: 'var(--cream)' }}>
+            {t('title')}
+          </h2>
+          <p className="lede intake-sub" style={{ color: 'rgba(214,231,203,0.55)', margin: '0.8rem auto 0' }}>
+            {t('sub')}
+          </p>
         </div>
 
-        <div className="area-select reveal">
+        <div className="itabs on-dark r d1" style={{ justifyContent: 'center' }}>
           {INQUIRY_PATHS.map((path) => (
             <button
               key={path}
-              className={`area-btn${active === path ? ' active' : ''}`}
+              className={`itab${active === path ? ' on' : ''}`}
               onClick={() => setActive(path)}
               type="button"
             >
@@ -32,13 +39,11 @@ export default function IntakeSection() {
           ))}
         </div>
 
-        {INQUIRY_PATHS.map((path) => (
-          <div key={path} className={`intake-panel${active === path ? ' active' : ''}`}>
-            <p className="panel-title">{tf(`${path}.title`)}</p>
-            <p className="panel-desc">{tf(`${path}.desc`)}</p>
-            {active === path && <InquiryForm path={path} />}
-          </div>
-        ))}
+        <div className="cform r d1">
+          <p className="panel-title">{tf(`${active}.title`)}</p>
+          <p className="panel-desc">{tf(`${active}.desc`)}</p>
+          <InquiryForm path={active} />
+        </div>
       </div>
     </section>
   );
