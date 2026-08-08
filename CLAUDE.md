@@ -279,6 +279,28 @@ go-ahead (DNS/domain changes are hard to reverse).
   not valid as a React child" at runtime in `LegalModalProvider`. Fixed in
   `messages.legal.notice.seeAlso`; keep this in mind for any future rich-text
   (clickable-inline-link) translations.
+- **Redesign temporarily dropped the serpent-divider image (Services), the shell image
+  (Framework's quote), and the roman-numeral service numbering (I-IX)** when the page
+  markup was rebuilt around Regenera's structural classes — an oversight, not
+  intentional. All three restored. Also: the hero pyramid/sun image had been faded to
+  50% opacity to match Regenera's subtler hero treatment; restored to full opacity with
+  a gradient overlay for legibility instead, since the image itself is core Ollin
+  identity, not a decorative background Regenera-style tone-down should apply to.
+- **Critical bug (fixed): `ScrollReveal.tsx` watched for the legacy `.reveal` class,
+  but the redesign switched every page to Regenera's `.r` class** — nobody updated the
+  watcher, so `.r` elements (which default to `opacity:0` until JS adds `.vis`) never
+  got revealed. Practically the entire page below each hero was invisible on every
+  route. This is the exact "most pages are blank" bug the user reported. Root-caused by
+  testing DOM presence/computed-style of *specific* elements post-redesign but never
+  checking the opacity of the generic reveal-wrapper class itself — a real gap in the
+  verification approach, not just bad luck. Fixed the selector, and added defensive
+  layers (a 2.5s force-reveal safety net in `ScrollReveal.tsx`, plus a `<noscript>`
+  fallback matching the original site's own pattern) specifically so a *future*
+  reveal-class mismatch degrades to "content visible without a fade-in," never to
+  "content invisible forever." When touching `.r`/`.vis`-based reveal markup again,
+  verify by checking `getComputedStyle(el).opacity` on actual page content after
+  navigation, not just element counts or console errors — DOM presence is not the same
+  as visibility.
 
 ## Current Implementation State
 
