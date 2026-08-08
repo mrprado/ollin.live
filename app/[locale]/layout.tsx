@@ -123,6 +123,9 @@ export default async function LocaleLayout({
         />
       </head>
       <body>
+        <noscript>
+          <style>{'.r{opacity:1!important;transform:none!important}'}</style>
+        </noscript>
         <NextIntlClientProvider messages={messages}>
           <LegalModalProvider>
             <a href="#intake" className="skip-link">
