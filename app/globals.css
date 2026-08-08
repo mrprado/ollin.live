@@ -49,19 +49,19 @@ button{font-family:inherit;cursor:pointer}
 .btn:hover .arr,.pl:hover .arr{transform:translateX(4px)}
 
 /* ── nav ── */
-nav{position:fixed;top:0;left:0;right:0;z-index:300;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 3rem;background:rgba(11,16,12,0.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--line-lt)}
+nav{position:fixed;top:0;left:0;right:0;z-index:300;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 3rem;background:rgba(246,243,234,0.95);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
 .nav-logo,.logo{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--gold);text-decoration:none;letter-spacing:0.2em;background:none;border:none;display:inline-block}
 .nav-right{display:flex;align-items:center}
 .nav-links{display:flex;align-items:center;justify-content:flex-end;gap:4px;list-style:none}
-.nav-links a{background:none;border:none;padding:9px 13px;font-size:11px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(214,231,203,0.55);transition:color .2s;border-radius:2px;text-decoration:none;display:inline-block;white-space:nowrap}
-.nav-links a:hover{color:var(--pale)}
-.nav-links a.active{color:var(--gold)}
+.nav-links a{background:none;border:none;padding:9px 13px;font-size:11px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--t-mid);transition:color .2s;border-radius:2px;text-decoration:none;display:inline-block;white-space:nowrap}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a.active{color:var(--gold-dim)}
 .nav-cta{margin-left:14px;padding:10px 20px;background:var(--gold);color:var(--night);border:none;font-size:11px;font-weight:600;letter-spacing:0.13em;text-transform:uppercase;border-radius:2px;transition:background .25s;text-decoration:none;display:inline-flex;align-items:center;white-space:nowrap}
 .nav-cta:hover{background:#d8b95e}
-.lang-btn{background:none;border:1px solid rgba(214,231,203,0.25);color:rgba(214,231,203,0.6);font-size:10.5px;font-weight:600;letter-spacing:0.1em;padding:7px 11px;border-radius:2px;margin-left:14px;transition:all .2s}
-.lang-btn:hover{color:var(--gold);border-color:rgba(201,168,76,0.4)}
+.lang-btn{background:none;border:1px solid var(--line);color:var(--t-mid);font-size:10.5px;font-weight:600;letter-spacing:0.1em;padding:7px 11px;border-radius:2px;margin-left:14px;transition:all .2s}
+.lang-btn:hover{color:var(--gold-dim);border-color:rgba(201,168,76,0.4)}
 .menu-btn{display:none;flex-direction:column;gap:5px;background:none;border:none;padding:8px}
-.menu-btn span{width:22px;height:1.5px;background:var(--pale);transition:all .3s}
+.menu-btn span{width:22px;height:1.5px;background:var(--ink);transition:all .3s}
 .mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;z-index:290;background:rgba(11,16,12,0.98);backdrop-filter:blur(20px);border-bottom:1px solid var(--line-lt);flex-direction:column;padding:1rem 1.5rem 1.5rem}
 .mobile-menu.open{display:flex}
 .mobile-menu a{background:none;border:none;border-bottom:1px solid rgba(201,168,76,0.08);padding:15px 4px;text-align:left;font-size:12px;font-weight:500;letter-spacing:0.13em;text-transform:uppercase;color:rgba(214,231,203,0.7);text-decoration:none;display:block}
@@ -77,11 +77,21 @@ nav{position:fixed;top:0;left:0;right:0;z-index:300;display:flex;align-items:cen
 .page-head h1 em{font-style:italic;color:var(--mist)}
 .page-head .ph-sub{color:rgba(214,231,203,0.55);margin-top:1.4rem;font-size:16.5px;font-weight:300;line-height:1.8;max-width:620px}
 
-/* ── HERO (home) ── */
-.hero{position:relative;min-height:100vh;background:var(--night);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background-image:url('/images/hero-pyramid.jpg');background-size:cover;background-position:center 40%;filter:brightness(.95) saturate(.95)}
-.hero-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,16,12,.35) 0%,rgba(11,16,12,.1) 30%,rgba(11,16,12,.25) 55%,rgba(11,16,12,.75) 85%,var(--night) 100%)}
-.hero-in{position:relative;z-index:3;max-width:1180px;margin:0 auto;padding:120px 3rem 150px;width:100%}
+/* ── HERO (home) ──
+   Tan/parchment at the very top (behind nav), transitioning to green as
+   the pyramid appears. The photo itself carries a dark-green backdrop
+   baked in, so it's faded in via a mask (transparent at top, opaque by
+   the time the pyramid begins) rather than shown at flat opacity — this
+   lets the parchment gradient show through up top and the sun emerge
+   from that light zone, without needing to re-edit the source photo. */
+.hero{position:relative;min-height:100vh;background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment) 8%,#e4e3d6 16%,#a9b89b 26%,var(--forest) 42%,var(--night) 68%,var(--night) 100%);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.hero-bg{
+  position:absolute;inset:0;background-image:url('/images/hero-pyramid.jpg');background-size:cover;background-position:center 40%;filter:brightness(.95) saturate(.95);
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,transparent 8%,rgba(0,0,0,.35) 18%,rgba(0,0,0,.85) 26%,black 34%,black 100%);
+  mask-image:linear-gradient(180deg,transparent 0%,transparent 8%,rgba(0,0,0,.35) 18%,rgba(0,0,0,.85) 26%,black 34%,black 100%);
+}
+.hero-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,16,12,0) 0%,rgba(11,16,12,0) 25%,rgba(11,16,12,.25) 38%,rgba(11,16,12,.55) 58%,rgba(11,16,12,.85) 82%,var(--night) 100%)}
+.hero-in{position:relative;z-index:3;max-width:1180px;margin:0 auto;padding:260px 3rem 150px;width:100%}
 .hol{display:flex;align-items:center;gap:14px;margin-bottom:1.6rem}
 .hol .ey-b{width:34px}
 .hol span{font-size:11px;font-weight:600;letter-spacing:0.26em;text-transform:uppercase;color:var(--gold)}
@@ -287,7 +297,7 @@ footer{background:var(--night);border-top:1px solid rgba(201,168,76,0.07);paddin
 @media(max-width:960px){
   .w{padding:0 1.4rem}
   .page-head .w,.hero-in{padding-left:1.4rem;padding-right:1.4rem}
-  .hero-in{padding-top:110px;padding-bottom:170px}
+  .hero-in{padding-top:200px;padding-bottom:170px}
   .doors{grid-template-columns:1fr 1fr}
   .trust-in{flex-wrap:wrap;padding:0 1.4rem}
   .ti{flex:1 1 45%;border-right:none;border-bottom:1px solid rgba(201,168,76,0.07)}

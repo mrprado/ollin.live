@@ -43,10 +43,10 @@ export default function ServicesPage() {
         <div className="w">
           <div className="center r" style={{ maxWidth: 520, margin: '0 auto 4rem' }}>
             <Image
-              src="/images/serpent-divider.jpg"
+              src="/images/serpent-divider.png"
               alt=""
-              width={520}
-              height={130}
+              width={1536}
+              height={1024}
               style={{ opacity: 0.9, width: '100%', height: 'auto' }}
             />
           </div>

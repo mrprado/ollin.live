@@ -45,11 +45,11 @@ export default function FrameworkPage() {
           <div className="split r" style={{ alignItems: 'center' }}>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <Image
-                src="/images/calendar.jpg"
+                src="/images/calendar.png"
                 alt={t('title')}
-                width={280}
-                height={280}
-                style={{ borderRadius: '50%', boxShadow: '0 0 0 1px rgba(201,168,76,0.2)' }}
+                width={1024}
+                height={1024}
+                style={{ width: 280, height: 'auto' }}
               />
             </div>
             <div>

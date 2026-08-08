@@ -301,6 +301,36 @@ go-ahead (DNS/domain changes are hard to reverse).
   verify by checking `getComputedStyle(el).opacity` on actual page content after
   navigation, not just element counts or console errors — DOM presence is not the same
   as visibility.
+- **Home hero background: tan/parchment at the very top, transitioning to green as the
+  pyramid appears**, on explicit user instruction. `.hero`'s own background is now a
+  `linear-gradient` from `var(--parchment)` down through `var(--forest)` to
+  `var(--night)`; the pyramid/sun photo (`.hero-bg`) is layered on top with a CSS
+  `mask-image` (transparent at the very top, opaque by ~34% down) rather than shown at
+  flat opacity, since the photo has a dark-green background baked into it and there's
+  no image-editing tool available in this environment to key it out — the mask achieves
+  the same visual result (parchment shows through up top, the sun emerges from that
+  light zone, the pyramid anchors the green) without needing to re-edit the source
+  file. `hero-in` padding-top was increased (120px → 260px desktop, 110px → 200px
+  mobile) so the headline text clears the light transition zone into solidly dark
+  territory, since cream-colored text would be unreadable against the new parchment top.
+  Nav bar background changed from dark (`rgba(11,16,12,.94)`) to parchment
+  (`rgba(246,243,234,.95)`), with nav-link/hamburger colors flipped to dark-on-light
+  accordingly — **the OLLIN logo stays gold** (`var(--gold)`, unchanged) per explicit
+  instruction. Mobile menu overlay was deliberately left dark — not part of what was
+  described, changing it wasn't asked for.
+- **Serpent divider (Services) and calendar/sun-stone (Framework) images replaced** with
+  new user-supplied artwork — `Coatl_Jade.png` (a jade/turquoise double-headed serpent)
+  and `Nahui_Ollin.png` (a stone Aztec calendar disc), both genuinely alpha-transparent
+  (verified by decoding actual pixel alpha values with `pngjs`, not just checking the
+  PNG color-type byte, which only proves an alpha *channel* exists, not that anything is
+  actually transparent — corners read alpha 0, subject reads alpha ~250-255). Saved as
+  `public/images/serpent-divider.png` and `public/images/calendar.png` (old `.jpg`
+  versions left in place, unreferenced, harmless). Rendered with no background box/color
+  on the image or its wrapper, so the page's own background (parchment on Services,
+  parchment on Framework) shows through around them — the calendar's old circular
+  clip-mask and gold ring `boxShadow` were removed since the new image is already a
+  naturally circular disc with transparent corners; forcing a circular clip again risked
+  cutting into the actual artwork if it isn't perfectly centered in its bounding box.
 
 ## Current Implementation State
 
