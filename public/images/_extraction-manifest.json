@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "name": "hero-pyramid",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 180534,
+    "mismatch": false
+  },
+  {
+    "index": 1,
+    "name": "texture",
+    "declared": "image/png",
+    "actualExt": "jpg",
+    "bytes": 132090,
+    "mismatch": true
+  },
+  {
+    "index": 2,
+    "name": "serpent-divider",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 160457,
+    "mismatch": false
+  },
+  {
+    "index": 3,
+    "name": "calendar",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 52305,
+    "mismatch": false
+  },
+  {
+    "index": 4,
+    "name": "shell",
+    "declared": "image/png",
+    "actualExt": "jpg",
+    "bytes": 13368,
+    "mismatch": true
+  },
+  {
+    "index": 5,
+    "name": "alan-portrait",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 190973,
+    "mismatch": false
+  },
+  {
+    "index": 6,
+    "name": "teacher-tonawaka-kwauhtlinxan",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 126245,
+    "mismatch": false
+  },
+  {
+    "index": 7,
+    "name": "teacher-sri-yuganandanatha",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 121743,
+    "mismatch": false
+  },
+  {
+    "index": 8,
+    "name": "teacher-tjok-gde-kerthyasa",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 46252,
+    "mismatch": false
+  },
+  {
+    "index": 9,
+    "name": "teacher-ashan-vipin-das",
+    "declared": "image/jpeg",
+    "actualExt": "jpg",
+    "bytes": 136330,
+    "mismatch": false
+  }
+]

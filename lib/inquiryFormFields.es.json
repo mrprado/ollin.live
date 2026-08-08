@@ -1,0 +1,815 @@
+{
+  "health": [
+    {
+      "key": "fullName",
+      "label": "Nombre completo",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "age",
+      "label": "Edad",
+      "type": "text"
+    },
+    {
+      "key": "location",
+      "label": "Ubicación",
+      "type": "text",
+      "placeholder": "Ciudad, País"
+    },
+    {
+      "key": "biologicalSex",
+      "label": "Sexo biológico",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Masculino",
+        "Femenino",
+        "Prefiero no decirlo"
+      ]
+    },
+    {
+      "key": "preferredFormat",
+      "label": "Formato preferido",
+      "type": "select",
+      "options": [
+        "En línea",
+        "Presencial",
+        "Cualquiera"
+      ]
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "Salud Actual"
+    },
+    {
+      "key": "primaryConcern",
+      "label": "Tu preocupación principal en tus propias palabras",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué te trae aquí, cuánto tiempo lleva presente y qué ha ayudado o no..."
+    },
+    {
+      "key": "digestion",
+      "label": "Digestión",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Fuerte y regular",
+        "Lenta",
+        "Irregular",
+        "Inflamación o molestia",
+        "Reactiva a alimentos"
+      ]
+    },
+    {
+      "key": "sleep",
+      "label": "Sueño",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Profundo y reparador",
+        "Dificultad para conciliar el sueño",
+        "Despierto durante la noche",
+        "Despierto sin descanso",
+        "Consistentemente malo"
+      ]
+    },
+    {
+      "key": "energy",
+      "label": "Energía a lo largo del día",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Consistente y fuerte",
+        "Alta en la mañana, baja en la tarde",
+        "Baja en la mañana, mejor después",
+        "Impredecible",
+        "Crónicamente agotada"
+      ]
+    },
+    {
+      "key": "stressLevel",
+      "label": "Nivel de estrés, últimos tres meses",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Mínimo",
+        "Moderado",
+        "Alto pero funcional",
+        "Alto, afectando la salud",
+        "Agudo"
+      ]
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Estilo de Vida"
+    },
+    {
+      "key": "currentDiet",
+      "label": "Dieta diaria actual",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué comes, cuándo y cómo. Incluye horarios de comida y patrones relevantes..."
+    },
+    {
+      "key": "movementPractice",
+      "label": "Práctica de movimiento",
+      "type": "text",
+      "placeholder": "Tipo y frecuencia"
+    },
+    {
+      "key": "medications",
+      "label": "Medicamentos o suplementos",
+      "type": "text",
+      "placeholder": "Enumera todos, o Ninguno"
+    },
+    {
+      "key": "medicalHistory",
+      "label": "Historial médico relevante",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Diagnósticos, cirugías o condiciones relevantes para tus objetivos actuales..."
+    },
+    {
+      "key": "improvementGoal",
+      "label": "¿Cómo se vería una mejora significativa en tres meses?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Sé específico sobre lo que quieres sentir o poder hacer de manera diferente..."
+    }
+  ],
+  "nutrition": [
+    {
+      "key": "fullName",
+      "label": "Nombre completo",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "age",
+      "label": "Edad",
+      "type": "text"
+    },
+    {
+      "key": "location",
+      "label": "Ubicación",
+      "type": "text",
+      "placeholder": "Ciudad, País"
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "Digestión"
+    },
+    {
+      "key": "bowelRegularity",
+      "label": "Regularidad intestinal",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "1 a 2 veces al día, fácil",
+        "Una vez al día",
+        "Irregular",
+        "Estreñimiento crónico",
+        "Suelto o frecuente"
+      ]
+    },
+    {
+      "key": "bloating",
+      "label": "Inflamación o gases",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Rara vez",
+        "Ocasionalmente",
+        "La mayoría de las comidas",
+        "Casi siempre"
+      ]
+    },
+    {
+      "key": "digestiveSymptoms",
+      "label": "Síntomas digestivos que experimentas con regularidad",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Acidez, reflujo, cólicos, náusea, pesadez, niebla mental después de comer..."
+    },
+    {
+      "key": "foodSensitivities",
+      "label": "Sensibilidades o alergias alimentarias",
+      "type": "text",
+      "full": true,
+      "placeholder": "Gluten, lácteos, FODMAPs, etc., o Ninguna conocida"
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Patrones de Alimentación"
+    },
+    {
+      "key": "typicalDay",
+      "label": "Un día típico de alimentación: qué, cuándo y cómo",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Desde despertar hasta dormir. Incluye horarios, cantidades y contexto..."
+    },
+    {
+      "key": "appetiteQuality",
+      "label": "Calidad del apetito",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Fuerte y consistente",
+        "Variable",
+        "Bajo en la mañana",
+        "Impulsado por antojos",
+        "Influido por emociones"
+      ]
+    },
+    {
+      "key": "dietaryApproach",
+      "label": "Enfoque dietético actual",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Sin enfoque específico",
+        "Basado en plantas o vegano",
+        "Vegetariano",
+        "Omnívoro",
+        "Ancestral o paleo",
+        "Enfoque estacional y local",
+        "Otro"
+      ]
+    },
+    {
+      "key": "cookingRelationship",
+      "label": "Relación con la cocina",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "¿Cocinas con regularidad? ¿Es nutritivo o una carga? ¿Con qué frecuencia comes fuera?"
+    },
+    {
+      "key": "foodSource",
+      "label": "¿De dónde proviene la mayoría de tus alimentos?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Supermercado, mercado local, cooperativa, huerto en casa, restaurantes..."
+    },
+    {
+      "key": "foodTransformation",
+      "label": "¿Cómo se vería una relación transformada con la comida?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "¿Qué falta y hacia qué estás trabajando?"
+    }
+  ],
+  "conception": [
+    {
+      "key": "yourName",
+      "label": "Tu nombre",
+      "type": "text"
+    },
+    {
+      "key": "partnerName",
+      "label": "Nombre de tu pareja (si aplica)",
+      "type": "text",
+      "placeholder": "Opcional"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "ages",
+      "label": "Edad / Edad de tu pareja",
+      "type": "text",
+      "placeholder": "p. ej. 32 / 35"
+    },
+    {
+      "key": "location",
+      "label": "Ubicación",
+      "type": "text",
+      "placeholder": "Ciudad, País"
+    },
+    {
+      "key": "preferredFormat",
+      "label": "Formato preferido",
+      "type": "select",
+      "options": [
+        "En línea",
+        "Presencial",
+        "Cualquiera"
+      ]
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "Salud Reproductiva"
+    },
+    {
+      "key": "preparingDuration",
+      "label": "¿Cuánto tiempo llevan preparándose o intentando concebir?",
+      "type": "text",
+      "full": true,
+      "placeholder": "Apenas comenzando / intentando activamente por X meses..."
+    },
+    {
+      "key": "previousPregnancies",
+      "label": "Embarazos previos",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Ninguno",
+        "Uno, exitoso",
+        "Uno o más, con pérdida",
+        "Varios, resultados mixtos"
+      ]
+    },
+    {
+      "key": "cycleRegularity",
+      "label": "Regularidad del ciclo menstrual",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Regular y predecible",
+        "Irregular",
+        "Ausente o suprimido",
+        "Doloroso o abundante",
+        "No aplica"
+      ]
+    },
+    {
+      "key": "reproductiveDiagnoses",
+      "label": "Diagnósticos reproductivos u hormonales conocidos",
+      "type": "text",
+      "full": true,
+      "placeholder": "SOP, endometriosis, condiciones tiroideas, conteo bajo de espermatozoides, ninguno..."
+    },
+    {
+      "key": "specialistWork",
+      "label": "¿Trabajan actualmente con un especialista en fertilidad o ginecólogo?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Si es así, describe el enfoque actual y qué buscan más allá de él..."
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Vitalidad y Preparación"
+    },
+    {
+      "key": "energyLevel",
+      "label": "Nivel de energía actual",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Agotado",
+        "Bajo",
+        "Moderado",
+        "Bueno",
+        "Fuerte"
+      ]
+    },
+    {
+      "key": "sleepQuality",
+      "label": "Calidad del sueño",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Reparador y profundo",
+        "Ligero o interrumpido",
+        "Dificultad para conciliar el sueño",
+        "Consistentemente malo"
+      ]
+    },
+    {
+      "key": "dietPatterns",
+      "label": "Dieta y patrones de alimentación actuales",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué comes, estructura de comidas, inquietudes sobre nutrición para la fertilidad..."
+    },
+    {
+      "key": "emotionalReadiness",
+      "label": "Preparación emocional",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Preparación, miedos, ambivalencia o claridad. Toda la información es útil..."
+    },
+    {
+      "key": "householdStability",
+      "label": "Hogar actual: estabilidad, apoyo, entorno",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Situación de vivienda, dinámica relacional, preparación práctica..."
+    },
+    {
+      "key": "familyVision",
+      "label": "¿Qué tipo de hogar y vida familiar están construyendo?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Intención de linaje, valores, entorno, forma de vida..."
+    }
+  ],
+  "routine": [
+    {
+      "key": "fullName",
+      "label": "Nombre completo",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "location",
+      "label": "Ubicación",
+      "type": "text",
+      "placeholder": "Ciudad, País"
+    },
+    {
+      "key": "preferredFormat",
+      "label": "Formato preferido",
+      "type": "select",
+      "options": [
+        "En línea",
+        "Presencial",
+        "Cualquiera"
+      ]
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "Estructura Diaria"
+    },
+    {
+      "key": "wakeTime",
+      "label": "Hora habitual de despertar",
+      "type": "text",
+      "placeholder": "p. ej. 6:30 am o varía mucho"
+    },
+    {
+      "key": "sleepTime",
+      "label": "Hora habitual de dormir",
+      "type": "text",
+      "placeholder": "p. ej. 10:30 pm o después de medianoche"
+    },
+    {
+      "key": "morning",
+      "label": "La mañana desde despertar hasta el primer compromiso",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Primeras acciones, pantallas, comida, quietud, movimiento. Lo que realmente sucede..."
+    },
+    {
+      "key": "evening",
+      "label": "La tarde noche desde la cena hasta dormir",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Cómo te relajas, o no. ¿Qué ocupa esas horas?"
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Práctica"
+    },
+    {
+      "key": "movement",
+      "label": "Movimiento físico o ejercicio",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué, con qué frecuencia y cómo afecta tu energía y ánimo..."
+    },
+    {
+      "key": "somaticExperience",
+      "label": "Experiencia con yoga, Siddha yoga, Kalari o movimiento somático",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Antecedentes, práctica actual, linajes o maestros si es relevante..."
+    },
+    {
+      "key": "pranayama",
+      "label": "Pranayama o trabajo de respiración",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Práctica diaria",
+        "Ocasional",
+        "Lo intenté pero sin constancia",
+        "Con interés, sin práctica aún",
+        "Ninguno"
+      ]
+    },
+    {
+      "key": "meditation",
+      "label": "Meditación",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Diaria, establecida",
+        "Varias veces por semana",
+        "Ocasional",
+        "Lo intenté, sin constancia",
+        "Ninguna actualmente"
+      ]
+    },
+    {
+      "key": "mantraPractice",
+      "label": "Mantra o práctica contemplativa",
+      "type": "text",
+      "full": true,
+      "placeholder": "Práctica actual y linaje, o Ninguna"
+    },
+    {
+      "key": "sec3",
+      "type": "section",
+      "label": "Objetivos"
+    },
+    {
+      "key": "rhythmBreakdown",
+      "label": "¿Dónde se ha roto más el ritmo o la disciplina?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué se sigue cayendo y por qué..."
+    },
+    {
+      "key": "sustainableStructure",
+      "label": "¿Cómo se sentiría una estructura diaria coherente y sostenible?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Describe en términos concretos hacia qué estás trabajando..."
+    }
+  ],
+  "home": [
+    {
+      "key": "fullName",
+      "label": "Nombre completo",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "location",
+      "label": "Ubicación",
+      "type": "text",
+      "placeholder": "Ciudad, País"
+    },
+    {
+      "key": "format",
+      "label": "Formato",
+      "type": "select",
+      "options": [
+        "En línea",
+        "Presencial / Visita al sitio"
+      ]
+    },
+    {
+      "key": "primaryFocus",
+      "label": "Enfoque principal",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Salud espacial y evaluación Vastu",
+        "Desarrollo familiar y del hogar",
+        "Ambos"
+      ]
+    },
+    {
+      "key": "dwellingType",
+      "label": "Tipo de vivienda",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Casa propia",
+        "Casa rentada",
+        "Departamento propio",
+        "Departamento rentado",
+        "Propiedad rural",
+        "Otro"
+      ]
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "El Espacio"
+    },
+    {
+      "key": "entranceOrientation",
+      "label": "Orientación de la entrada principal",
+      "type": "select",
+      "options": [
+        "Desconocida",
+        "Norte",
+        "Noreste",
+        "Este",
+        "Sureste",
+        "Sur",
+        "Suroeste",
+        "Oeste",
+        "Noroeste"
+      ]
+    },
+    {
+      "key": "householdSize",
+      "label": "¿Cuántas personas viven en el hogar?",
+      "type": "text",
+      "placeholder": "p. ej. 2 adultos, 1 niño"
+    },
+    {
+      "key": "homeFeeling",
+      "label": "¿Cómo te hace sentir este hogar en el día a día?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Con energía, pesadez, dispersión, calma, inquietud. Descríbelo con honestidad..."
+    },
+    {
+      "key": "sleepSpace",
+      "label": "Espacio de descanso: orientación, luz, electrónicos",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Orientación de la recámara, posición de la cama, ventanas, pantallas, calidad del aire..."
+    },
+    {
+      "key": "kitchen",
+      "label": "Cocina: distribución, luz y cómo la usas",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Luz natural, frecuencia con que cocinas, cómo se siente el espacio al cocinar..."
+    },
+    {
+      "key": "practiceSpace",
+      "label": "Espacio para movimiento, práctica o quietud",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Qué existe, qué falta, qué te gustaría crear..."
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Ritmo del Hogar"
+    },
+    {
+      "key": "dailyRhythm",
+      "label": "Describe el ritmo diario del hogar",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Horas de despertar, comidas, trabajo, rutinas de los niños, tardes. Cómo es realmente el día..."
+    },
+    {
+      "key": "friction",
+      "label": "¿Qué está más fuera de ritmo o genera fricción en la vida diaria del hogar?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Sueño, comida, horarios, relaciones, prácticas compartidas, entorno..."
+    },
+    {
+      "key": "outcomeSeeking",
+      "label": "¿Qué resultado buscas de esta consulta?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Mejor sueño, claridad espacial, una cocina más funcional, un ritmo familiar más sano, un espacio de práctica..."
+    }
+  ],
+  "land": [
+    {
+      "key": "fullName",
+      "label": "Nombre completo",
+      "type": "text"
+    },
+    {
+      "key": "email",
+      "label": "Correo electrónico",
+      "type": "email"
+    },
+    {
+      "key": "propertyLocation",
+      "label": "Ubicación de la propiedad o proyecto",
+      "type": "text",
+      "placeholder": "Ciudad, Región, País"
+    },
+    {
+      "key": "format",
+      "label": "Formato",
+      "type": "select",
+      "options": [
+        "En línea",
+        "Presencial / Visita al sitio",
+        "Cualquiera"
+      ]
+    },
+    {
+      "key": "primaryFocus",
+      "label": "Enfoque principal",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Evaluación regenerativa de tierra",
+        "Sistemas de alimento y medicina del hogar",
+        "Asesoría en desarrollo",
+        "Todo lo anterior"
+      ]
+    },
+    {
+      "key": "propertyType",
+      "label": "Tipo de propiedad o proyecto",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Huerto o lote urbano",
+        "Patio suburbano",
+        "Rancho o parcela rural",
+        "Granja, menos de 20 hectáreas",
+        "Terreno grande, más de 20 hectáreas",
+        "Tierra de retiro o comunidad",
+        "Proyecto de desarrollo inmobiliario",
+        "Otro"
+      ]
+    },
+    {
+      "key": "sec1",
+      "type": "section",
+      "label": "La Tierra o el Proyecto"
+    },
+    {
+      "key": "size",
+      "label": "Tamaño aproximado",
+      "type": "text",
+      "placeholder": "p. ej. media hectárea, 3 hectáreas, o escala del proyecto"
+    },
+    {
+      "key": "climate",
+      "label": "Zona climática o bioma",
+      "type": "text",
+      "placeholder": "Tropical, semiárido, templado, mediterráneo..."
+    },
+    {
+      "key": "waterSource",
+      "label": "Fuente principal de agua",
+      "type": "select",
+      "options": [
+        "Selecciona",
+        "Municipal",
+        "Pozo",
+        "Captación de lluvia",
+        "Río o manantial",
+        "Mixta",
+        "No aplica"
+      ]
+    },
+    {
+      "key": "currentState",
+      "label": "¿Qué existe actualmente en la tierra o el sitio del proyecto?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Condición del suelo, estructuras existentes, vegetación, infraestructura, uso actual..."
+    },
+    {
+      "key": "workDone",
+      "label": "¿Qué trabajo se ha hecho ya hacia la restauración o el desarrollo ecológico?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Composta, cultivos de cobertura, sistemas de alimento, permacultura, planeación, construcción..."
+    },
+    {
+      "key": "sec2",
+      "type": "section",
+      "label": "Visión y Necesidades"
+    },
+    {
+      "key": "buildingToward",
+      "label": "¿Qué estás construyendo o hacia qué trabajas?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Granja regenerativa, soberanía alimentaria, centro de retiro, comunidad ecológica, proyecto de desarrollo..."
+    },
+    {
+      "key": "supportNeeded",
+      "label": "¿Dónde necesitas más apoyo?",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Salud del suelo, sistemas de agua, plantas medicinales, diseño de alimento, estrategia de desarrollo, posicionamiento ecológico..."
+    },
+    {
+      "key": "constraints",
+      "label": "Principales limitaciones o plazos",
+      "type": "textarea",
+      "full": true,
+      "placeholder": "Presupuesto, mano de obra, regulación, vacíos de conocimiento, plazos..."
+    }
+  ]
+}

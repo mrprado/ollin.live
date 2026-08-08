@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "Ollin · Integrative Health & Regenerative Living · Alan Prado",
+    "description": "Consultations in integrative health, daily practice, spatial health, and regenerative land and development. Ayurveda, Vastu Shastra, Kalari, and regenerative ecology applied across self, family, home, and land.",
+    "ogTitle": "Ollin · Integrative Health & Regenerative Living",
+    "ogDescription": "Consultations in integrative health, daily practice, spatial health, and regenerative land and development, with Alan Prado.",
+    "twitterDescription": "Integrative health, spatial design, and regenerative ecology applied across self, family, home, and land."
+  },
+  "nav": {
+    "services": "Services",
+    "framework": "Framework",
+    "background": "Background",
+    "about": "About",
+    "home": "Home",
+    "beginInquiry": "Begin an Inquiry",
+    "skipToInquiry": "Skip to inquiry",
+    "logoAria": "Ollin home"
+  },
+  "footer": {
+    "tag": "Integrative health and regenerative living, across the scales of self, family, home, and land.",
+    "email": "hello@ollin.bio",
+    "copyright": "© 2026 Ollin.bio · Alan Prado",
+    "tagline": "Integrative Health · Regenerative Living"
+  },
+  "home": {
+    "hero": {
+      "title": "OLLIN",
+      "l2": "Regenerative Living",
+      "sub": "An integrated practice of health, place, and ecology.",
+      "ctaServices": "View Services",
+      "ctaInquiry": "Begin an Inquiry"
+    },
+    "opening": {
+      "lede": "Most approaches to health, development, and ecology address one domain at a time.",
+      "fragments": [
+        "Health is treated apart from the environment that shapes it.",
+        "Personal practice is disconnected from family, household, and land.",
+        "Agriculture extracts from the soil rather than regenerating the living systems it depends on.",
+        "Architecture is designed without reference to the people who inhabit it."
+      ],
+      "close": "Ollin works across these domains, supporting individuals, families, landholders, and development projects at the intersection of health, ecology, spatial design, and human development."
+    },
+    "who": {
+      "eyebrow": "Who This Is For",
+      "title": "Serving people across fields and life stages",
+      "cards": [
+        {
+          "role": "Individuals seeking health",
+          "desc": "People navigating chronic fatigue, digestive disruption, hormonal imbalance, poor sleep, or a loss of vitality who want to address root patterns through integrative assessment and structured lifestyle protocols."
+        },
+        {
+          "role": "Couples preparing for conception",
+          "desc": "Individuals and couples who want to prepare body, mind, and household for conception with genuine depth, drawing from classical preconception frameworks and integrative reproductive health."
+        },
+        {
+          "role": "Families building household culture",
+          "desc": "Families seeking healthier daily rhythms, nourishment systems, and living environments, including spatial health assessment, routine design, and long term family wellbeing planning."
+        },
+        {
+          "role": "Practitioners and serious students",
+          "desc": "Those with existing practice in yoga, meditation, mantra, or martial arts who want structured daily design, practice integration, and educational depth across classical disciplines."
+        },
+        {
+          "role": "Landowners and stewards",
+          "desc": "Landowners, farmers, and stewards building regenerative food and medicine systems, with attention to soil biology, water systems, medicinal plant cultivation, and household food sovereignty."
+        }
+      ]
+    },
+    "servicesPreview": {
+      "eyebrow": "Areas of Consultation",
+      "title": "Four fields of work, one practice",
+      "cards": [
+        {
+          "num": "Health and Vitality",
+          "title": "Integrative health assessment, daily practice, nutrition, and preconception",
+          "link": "Explore health services"
+        },
+        {
+          "num": "Home and Space",
+          "title": "Vastu spatial health assessment and household development",
+          "link": "Explore spatial services"
+        },
+        {
+          "num": "Land, Ecology and Agriculture",
+          "title": "Regenerative land assessment and household food systems",
+          "link": "Explore land services"
+        },
+        {
+          "num": "Development and Strategy",
+          "title": "Regenerative development advisory for land and community projects",
+          "link": "Explore development advisory"
+        }
+      ],
+      "viewAll": "View All Services"
+    },
+    "process": {
+      "eyebrow": "How It Works",
+      "title": "The Process",
+      "steps": [
+        {
+          "n": "I",
+          "title": "Submit Your Inquiry",
+          "body": "Select your area below and complete the corresponding form. Every submission is reviewed personally before any session is confirmed."
+        },
+        {
+          "n": "II",
+          "title": "Review and Scheduling",
+          "body": "You will receive a response within three to five days with scheduling options for an online or in person session."
+        },
+        {
+          "n": "III",
+          "title": "Initial Consultation",
+          "body": "A structured session covering current patterns, history, and goals across all relevant fields of practice."
+        },
+        {
+          "n": "IV",
+          "title": "Written Protocol or Assessment",
+          "body": "Specific written recommendations adapted to your area of inquiry, whether health, space, land, or development. Precise, not general."
+        },
+        {
+          "n": "V",
+          "title": "Ongoing Integration",
+          "body": "Follow up sessions refine the work as conditions shift, the body responds, and new questions emerge."
+        }
+      ]
+    },
+    "intake": {
+      "eyebrow": "Begin the Work",
+      "title": "New Visitor Inquiry",
+      "sub": "Select the area that best describes what you are seeking. Each form is reviewed personally before any session is scheduled.",
+      "tabs": {
+        "health": "Health and Vitality",
+        "nutrition": "Nutrition",
+        "conception": "Preconception",
+        "routine": "Daily Routine",
+        "home": "Home and Space",
+        "land": "Land and Agriculture"
+      }
+    }
+  },
+  "forms": {
+    "submit": "Submit Inquiry",
+    "submitting": "Submitting…",
+    "successMessage": "Received. You will hear back within three to five days.",
+    "errorMessage": "Something went wrong. Please try again, or email hello@ollin.bio directly.",
+    "selectPlaceholder": "Select",
+    "health": {
+      "title": "Integrative Health and Vitality",
+      "desc": "Covers constitution, digestion, sleep, energy, and current health patterns. Be as specific as possible; your responses shape the entire consultation.",
+      "note": "Ollin provides integrative health education and lifestyle guidance, not diagnosis, treatment, or clinical medical care."
+    },
+    "nutrition": {
+      "title": "Nutrition and Digestive Health",
+      "desc": "Maps your digestive health, eating patterns, food sourcing, and relationship with nourishment.",
+      "note": "Ollin provides nutritional education and integrative dietary guidance, not clinical dietetic care or medical nutrition therapy."
+    },
+    "conception": {
+      "title": "Preconception and Reproductive Health",
+      "desc": "Covers physical readiness, hormonal health, nutrition, emotional state, and household intention. Complete together if applicable.",
+      "note": "Ollin does not provide fertility treatment or medical reproductive care. This is integrative health guidance and lifestyle support."
+    },
+    "routine": {
+      "title": "Daily Routine and Embodied Practice",
+      "desc": "Maps your current daily structure, movement, breathwork, and meditation practice. Describe your actual life, not the one you aspire to.",
+      "note": "This consultation covers lifestyle structure, embodied practice design, and daily rhythm, not clinical psychology or therapeutic intervention."
+    },
+    "home": {
+      "title": "Home, Space and Family Development",
+      "desc": "Assesses your living environment and household rhythm, covering spatial health, daily structure, and family wellbeing.",
+      "note": "Spatial health consultation draws from Vastu Shastra and environmental health frameworks. Family development consultation draws from Ayurvedic household frameworks and human development principles. Neither replaces licensed medical, therapeutic, or architectural services."
+    },
+    "land": {
+      "title": "Land, Agriculture and Regenerative Development",
+      "desc": "For those with land, development projects, or ecological properties seeking to integrate regenerative systems, health, and long term stewardship.",
+      "note": "This consultation bridges integrative health, ecological land stewardship, and regenerative development advisory. It is not licensed agronomic consulting or landscape architecture, though it complements those services."
+    }
+  },
+  "services": {
+    "eyebrow": "Areas of Consultation",
+    "title": "Services",
+    "sub": "Nine consultations across health, home, land, and development. Each begins with a structured intake and produces a written protocol or assessment specific to your situation.",
+    "clusters": [
+      {
+        "label": "Health and Vitality",
+        "items": [
+          {
+            "num": "I",
+            "title": "Integrative Health Assessment",
+            "pillars": ["Nadi pariksha", "Constitution", "Digestion", "Sleep", "Hormonal health", "Seasonal protocol"],
+            "body": "A comprehensive systems based evaluation covering constitution, digestive function, sleep architecture, hormonal balance, and lifestyle patterns. Includes pulse reading (nadi pariksha), tongue and tissue assessment, and a written protocol covering food, daily routine, and seasonal corrections. For those navigating chronic fatigue, immune depletion, digestive disruption, or systemic dysregulation who want to address root causes rather than symptoms.",
+            "cta": "Schedule a Health Assessment",
+            "path": "health",
+            "variant": "gold"
+          },
+          {
+            "num": "II",
+            "title": "Daily Routine and Embodied Practice",
+            "pillars": ["Dinacharya", "Kalari movement", "Siddha yoga", "Pranayama", "Meditation", "Mantra", "Abhyanga", "Marma"],
+            "body": "Structured design of dinacharya, the Ayurvedic science of daily rhythm, integrated with somatic movement rooted in Kalari Payattu and Siddha yoga, where posture, breath, and mantra are held as one discipline, alongside meditation and self care protocols. Covers morning and evening structure, seasonal variation, and the progressive building of a daily framework that sustains health, sharpens attention, and holds across a full, active life.",
+            "cta": "Design Your Daily Structure",
+            "path": "routine",
+            "variant": "gold"
+          },
+          {
+            "num": "III",
+            "title": "Nutrition and Digestive Health",
+            "pillars": ["Agni assessment", "Doshic suitability", "Meal rhythm", "Seasonal eating", "Food sourcing", "Cooking practice"],
+            "body": "Dietary assessment grounded in Ayurvedic nutritional science, covering agni (digestive fire), doshic suitability, food quality, seasonal variation, and meal timing, integrated with regenerative food systems thinking. Addresses the full spectrum from digestive restoration to food sourcing and cooking as a health practice. For those who want to rebuild their relationship with food from first principles.",
+            "cta": "Begin Nutrition Intake",
+            "path": "nutrition",
+            "variant": "gold"
+          },
+          {
+            "num": "IV",
+            "title": "Preconception and Reproductive Health",
+            "pillars": ["Ojas building", "Reproductive vitality", "Garbhadhana protocols", "Hormonal rhythm", "Household preparation"],
+            "body": "A structured approach to preparing body, mind, and household for conception, beginning months before attempting. Covers reproductive vitality, hormonal rhythm, dietary preparation, nervous system regulation, emotional readiness, and household stability. Draws from Ayurvedic garbhadhana protocols, Siddha yoga practice, and integrative reproductive health frameworks. For individuals and couples who want genuine preparation, not only clinical tracking.",
+            "cta": "Begin Preconception Intake",
+            "path": "conception",
+            "variant": "gold"
+          }
+        ]
+      },
+      {
+        "label": "Home and Space",
+        "items": [
+          {
+            "num": "V",
+            "title": "Vastu and Spatial Health Assessment",
+            "pillars": ["Orientation", "Sleep environment", "Kitchen ecology", "Air and light", "EMF load", "Practice space"],
+            "body": "Evaluation of a home, office, or development site through Vastu Shastra, the classical Indian science of spatial orientation, directionality, and environmental correspondence, alongside contemporary environmental health frameworks. Covers sleep environment, kitchen ecology, natural light, air quality, electromagnetic load, and altar and practice space. Delivered as a written assessment with prioritized recommendations, as an online review or in person site visit.",
+            "cta": "Request a Space Assessment",
+            "path": "home",
+            "variant": "cream"
+          },
+          {
+            "num": "VI",
+            "title": "Household Rhythm and Family Development",
+            "pillars": ["Family routine", "Nourishment systems", "Sleep environment", "Learning culture", "Seasonal rhythm"],
+            "body": "A consultation for families seeking to create healthier daily rhythms, food systems, and cultural foundations in the home. Covers household routine design, family nutrition, developmental environments for children, sleep and rest patterns, seasonal living, and the integration of shared practice. Draws from Ayurvedic family health frameworks, human development principles, and ecological household design.",
+            "cta": "Inquire About Family Development",
+            "path": "home",
+            "variant": "cream"
+          }
+        ]
+      },
+      {
+        "label": "Land, Ecology and Agriculture",
+        "items": [
+          {
+            "num": "VII",
+            "title": "Regenerative Land Assessment",
+            "pillars": ["Soil biology", "Water systems", "Agroforestry", "Biodiversity", "Medicinal plants", "Implementation plan"],
+            "body": "An ecological review of land, water, soil, vegetation, food systems, and regenerative opportunities. Covers soil biology and human health correspondence, water systems, agroforestry potential, medicinal plant cultivation, and biodiversity. Produces a phased implementation plan. For landowners, farmers, retreat centers, and families purchasing or stewarding land who want a coherent ecological strategy.",
+            "cta": "Request a Land Assessment",
+            "path": "land",
+            "variant": "stone"
+          },
+          {
+            "num": "VIII",
+            "title": "Household Food and Medicine Systems",
+            "pillars": ["Kitchen garden", "Food forest", "Medicinal herbs", "Heritage seeds", "Fermentation", "Food sovereignty"],
+            "body": "Design and planning for household scale food sovereignty. Covers kitchen garden layout, food forest architecture, medicinal herb cultivation, heritage seed selection, fermentation systems, and integration of food production with daily health practice. Draws from Ayurvedic food science, ethnobotany, permaculture design, and regenerative agriculture principles. For households ready to build a serious relationship with their own food and medicine.",
+            "cta": "Design Your Food System",
+            "path": "land",
+            "variant": "stone"
+          }
+        ]
+      },
+      {
+        "label": "Development, Community and Strategy",
+        "items": [
+          {
+            "num": "IX",
+            "title": "Regenerative Development Advisory",
+            "pillars": ["Development positioning", "Wellness integration", "Ecological design", "Community programming", "Land strategy", "Stewardship framework", "Project narrative"],
+            "body": "Strategic advisory for real estate, land, and community development projects integrating ecology, wellness, culture, education, and long term stewardship. Covers development positioning, wellness integration strategy, ecological design priorities, community programming, stewardship frameworks, and project narrative. For developers, landowners, retreat centers, and eco community projects where ecology, health, culture, and capital need to work together.",
+            "cta": "Discuss a Development Project",
+            "path": "land",
+            "variant": "stone",
+            "full": true
+          }
+        ]
+      }
+    ],
+    "levels": {
+      "eyebrow": "How to Work Together",
+      "title": "Levels of Practice",
+      "sub": "All work begins with a personal inquiry. Each level is designed for a different depth of commitment and stage of the work.",
+      "items": [
+        {
+          "tier": "Foundation",
+          "name": "Single Consultation",
+          "price": "One session · Written protocol included",
+          "features": [
+            "90 minute intake consultation",
+            "Constitutional or site based assessment",
+            "Written protocol with specific, actionable recommendations",
+            "One follow up exchange within 30 days"
+          ],
+          "note": "Suited for a focused area, whether health, nutrition, space, or land, where you want a clear starting point and written guidance."
+        },
+        {
+          "tier": "Immersive",
+          "name": "Three Month Protocol",
+          "price": "Three sessions · Evolving protocol · Email support",
+          "feature": true,
+          "features": [
+            "Initial 90 minute intake consultation",
+            "Two follow up sessions across three months",
+            "Written protocol refined and updated each session",
+            "Seasonal dietary and routine adjustment",
+            "Email support between sessions"
+          ],
+          "note": "For those building a coherent foundation: health, daily structure, food, and environment addressed together over time."
+        },
+        {
+          "tier": "Sustained",
+          "name": "Ongoing Practice",
+          "price": "Quarterly sessions · Annual arc · Priority access",
+          "features": [
+            "Seasonal consultations aligned to the four ritus",
+            "Protocol refinement each quarter",
+            "Progressive deepening across health, practice, home, and land",
+            "Priority scheduling and between session access",
+            "Annual health and lifestyle review"
+          ],
+          "note": "For those committed to sustained work across multiple areas of life, health, and development over an annual cycle."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Begin where the work begins",
+      "body": "Every engagement starts with a short inquiry, reviewed personally before any session is scheduled. Rhythm first; everything else is built on it."
+    }
+  },
+  "framework": {
+    "eyebrow": "The Framework",
+    "title": "Human Development Across Scales",
+    "sub": "Health, ecology, and human development are expressions of one question: what conditions support healthy people, healthy environments, and long term flourishing? Ollin works across six scales of life.",
+    "cyclesEyebrow": "Cycles and Correspondence",
+    "cyclesBody1": "Every biological, ecological, and cultural system operates on rhythm. Circadian, seasonal, lunar, and generational cycles govern individual health, family life, agricultural productivity, and community resilience. When human patterns fall out of correspondence with these cycles, the consequences are systemic and often misattributed to individual failure.",
+    "cyclesBody2": "Ollin draws from Nawi Ollin cosmology, Ayurvedic seasonal science, and regenerative ecology to situate human development within the larger orders of time, and to build frameworks that work across all six scales.",
+    "cycles": ["Circadian rhythm", "Seasonal adaptation", "Lunar timing", "Dinacharya", "Tonalpohualli", "Generational cycles"],
+    "scales": [
+      { "n": "I", "name": "SELF", "body": "Health, discipline, attention, movement, nutrition, and personal development." },
+      { "n": "II", "name": "FAMILY", "body": "Conception, household culture, relationships, daily rhythm, and family wellbeing." },
+      { "n": "III", "name": "HOME", "body": "Architecture, orientation, light, air, spatial order, and the household environment." },
+      { "n": "IV", "name": "LAND", "body": "Food, water, soil, ecology, agriculture, and long term land stewardship." },
+      { "n": "V", "name": "COMMUNITY", "body": "Culture, education, ecology, shared values, and collective development." },
+      { "n": "VI", "name": "CONTINUITY", "body": "Long term stewardship of knowledge, institutions, culture, and place." }
+    ],
+    "quote": "A body in rhythm. A home in order.\nLand in cycle. A mind in practice.",
+    "quoteAttr": "The Aim of the Work at Ollin",
+    "cta": {
+      "title": "Bring one scale of your life",
+      "body": "A health question, a home, a piece of land, or a project. The work meets you at whichever scale needs attention first."
+    }
+  },
+  "background": {
+    "eyebrow": "Background and Training",
+    "title": "Areas of Study",
+    "sub": "The disciplines behind the work, approached through formal study, lineage based learning, and lived application.",
+    "disciplines": [
+      {
+        "name": "Integrative Health and Ayurveda",
+        "body": "Formal study in Ayurveda Wellness and Integrative Health at Maharishi International University. Covers constitutional assessment (prakriti), nadi pariksha, dinacharya, digestive science, lifestyle medicine, preventive health, nutrition, public health, marma therapy, and seasonal protocols for long term vitality."
+      },
+      {
+        "name": "Regenerative Organic Agriculture",
+        "body": "Formal study at Maharishi International University in soil health, biodiversity, water systems, food systems ecology, agroforestry, permaculture design, and the relationship between agricultural systems and community health."
+      },
+      {
+        "name": "Kalari Payattu and Kalari Chikitsa",
+        "body": "Kerala physical culture combining martial discipline, somatic movement, coordination, breathwork, and the therapeutic system of Kalari Chikitsa. Studied through lineage based instruction in movement, mobility, physical development, and health preservation."
+      },
+      {
+        "name": "Vastu Shastra and Indian Architecture",
+        "body": "Study of Vastu Shastra and Indian architectural history at Bhishma School of Indic Studies, covering spatial principles, directionality, temple design, symbolism, and the relationship between built environments, culture, ritual, and community life."
+      },
+      {
+        "name": "Sri Vidya and Kerala Tantra",
+        "body": "Ongoing gurukula based study in Sri Vidya, Kerala Tantra Shastra, Siddha yoga, mantra, ritual systems, Antarika Puja, Saparivara Puja, Homa, yantra, cosmology, and guru parampara through the Sri Vidya Tantra Peedom. Presented educationally; it does not imply initiation authority or transmission of advanced practices."
+      },
+      {
+        "name": "Jyotisha",
+        "body": "Classical Indian astrology as an interpretive framework for understanding timing, cycles, tendencies, vocation, relationships, and developmental patterns. Applied to support personal reflection, annual planning, and life direction rather than fatalistic prediction."
+      },
+      {
+        "name": "Nawi Ollin and Mesoamerican Cosmology",
+        "body": "Study of Tonalpohualli, Xiuhpohualli, Tezcatlipoca traditions, and Mesoamerican frameworks for understanding time, ecology, self knowledge, human development, and cultural continuity. Studied through the National Autonomous University of Mexico and ongoing inquiry rooted in the landscapes of the Yucatan Peninsula."
+      },
+      {
+        "name": "Consciousness Studies and Contemplative Practice",
+        "body": "Study of attention, awareness, developmental models, meditation, mantra, japa, ritual literacy, symbolic systems, and the role of disciplined practice in daily household life, integrated across Vedic, Tantric, Mesoamerican, and contemporary frameworks."
+      },
+      {
+        "name": "Community Design and Regenerative Development",
+        "body": "Applied work spanning real estate advisory, land strategy, capital formation, community planning, ecological integration, wellness positioning, cultural programming, and long term stewardship. Connected to active advisory practice through Regenera, focused on projects where ecology, health, culture, and development intersect at the scale of land, community, and infrastructure.",
+        "full": true
+      }
+    ],
+    "cta": {
+      "title": "Put this training to work",
+      "body": "Every consultation draws on these disciplines, applied to your specific situation."
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Alan Prado",
+    "sub": "The questions, places, and studies behind Ollin.",
+    "heading": "Alan Prado",
+    "paragraphs": [
+      "My work explores the relationships between health, ecology, culture, and human development. The central question has been consistent across disciplines: what conditions support healthy individuals, families, communities, and environments over time?",
+      "Growing up in Mexico and spending years in the Yucatan Peninsula raised deeper questions about how communities once integrated water systems, food production, ecological knowledge, architecture, and cultural life into coherent environments capable of supporting generations of human development. Those questions led to formal Mayan studies at the National Autonomous University of Mexico.",
+      "Further study followed in Regenerative Organic Agriculture and Ayurveda Wellness and Integrative Health at Maharishi International University, Indian architecture at Bhishma School of Indic Studies, and ongoing learning in Sri Vidya, Kerala Tantra, Siddha yoga, Jyotisha, Vastu Shastra, and Kalari Payattu through gurukula based environments.",
+      "This work is applied at the scale of the individual, the household, the land, and the development project: through Ollin for personal and family health, and through Regenera for land, capital, and ecological infrastructure."
+    ],
+    "teachersEyebrow": "Lineage and Teachers",
+    "teachersTitle": "Teachers",
+    "teachersSub": "This work is carried through relationships with living teachers, each holding a distinct line of knowledge. Study with them is ongoing.",
+    "teachers": [
+      {
+        "name": "Tonawaka Kwauhtlinxan",
+        "role": "Temaxtianitl · Toltec and Aztec Sciences · Mexico",
+        "bio": "Tonawaka is a Temaxtianitl within the unbroken transmission of Tezcatlipoca, the Nawi Ollin line of Toltec and Aztec sciences passed from instructor to apprentice and father to son. His work centers on the disciplines of the smoking mirror: obsidian mirror practice, self knowledge through the calendar, and ceremony held in correspondence with the counts of time, solstice and equinox, full moon, the twenty day cycle, temazcal, naming rites, weddings, and mortuary cycles. He has carried this system of health and ceremony across Mexico since 1992, guiding learning groups and lecturing in national and international educational centers.",
+        "image": "teacher-tonawaka-kwauhtlinxan",
+        "alt": "Ceremonial altar of the Toltec and Aztec sciences"
+      },
+      {
+        "name": "Sri Yuganandanatha",
+        "role": "Siddha Tantra · Yoga · Kerala",
+        "bio": "Sri Yuganandanatha, Jithesh Sathyan, teaches Siddha yoga and Tantra sadhana as one continuous discipline, in which posture, breath, mantra, and ritual are held together rather than practiced apart. Trained in Kerala under multiple gurus and sampradayas, he holds the Kerala Dakshinachara, Dravida Kaula Vama, Misrachara, Vedic, and Samaya systems, with krama diksha and purna diksha in Srividya. His principal teacher is Brahmasree T.D.P. Nambootiri of Mantra Vidya Peedom, under whom he learned tantra puja, homa, jyotisham, and vastu vidya, with further transmission in Siddha yoga, Dravida jyotisha, and hamsa vidya.",
+        "image": "teacher-sri-yuganandanatha",
+        "alt": "Sri Yuganandanatha"
+      },
+      {
+        "name": "Tjok Gde Kerthyasa",
+        "role": "Homeopath and Health Scientist · Tirta Usada · Bali",
+        "bio": "Tjok Gde works at the meeting point of Balinese healing knowledge and Western natural medicine: homeopathy, alchemy, sacred embryology, and anthroposophic thought, joined in the Pranafas therapeutic method and the Tirta Usada remedies he founded in 2014. He holds a Bachelor of Health Science in Homeopathy from the University of New England and an Advanced Diploma of Homeopathy from the Australasian College of Natural Therapies, Sydney. Known across Indonesia for the Nature Life television program and his book Sehat Alami Secara Holistic, he is also a practicing tea master.",
+        "image": "teacher-tjok-gde-kerthyasa",
+        "alt": "Tjok Gde Kerthyasa"
+      },
+      {
+        "name": "Ashan Vipin Das",
+        "role": "Gurukkal · Athma Kalari · Kerala",
+        "bio": "In the line Vipindas Gurukkal carries, Kalari is not a martial art confined to training hours but a way of living that orders the whole day: rigorous physical discipline joined with classical yoga, meditation, and uzhichal, the therapeutic oil work of the Kalari. Practicing since age seven, he holds the Vadakkan, Madhyakerala, and Kadathandan forms, received from Sri Vijayan Gurukkal, Sri Jammal Kalari, and Sri Babu Varghese. He founded Athma Kalari in 2005, registered under the Kerala Kalaripayattu Association and the Indian Kalarippayattu Federation, and is a master of Kalari Marma therapy and Ayurvedic and yoga therapy, treating musculoskeletal and neurological conditions.",
+        "image": "teacher-ashan-vipin-das",
+        "alt": "Kalari practice in Kerala"
+      }
+    ],
+    "cta": {
+      "title": "Start a conversation",
+      "body": "Serious inquiries are welcome, whether for health, home, land, or a development project."
+    }
+  }
+}

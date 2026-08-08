@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "title": "Ollin · Salud Integrativa y Vida Regenerativa · Alan Prado",
+    "description": "Consultas en salud integrativa, práctica diaria, salud espacial, y tierra y desarrollo regenerativos. Ayurveda, Vastu Shastra, Kalari y ecología regenerativa aplicados a través del ser, la familia, el hogar y la tierra.",
+    "ogTitle": "Ollin · Salud Integrativa y Vida Regenerativa",
+    "ogDescription": "Consultas en salud integrativa, práctica diaria, salud espacial, y tierra y desarrollo regenerativos, con Alan Prado.",
+    "twitterDescription": "Salud integrativa, diseño espacial y ecología regenerativa aplicados a través del ser, la familia, el hogar y la tierra."
+  },
+  "nav": {
+    "services": "Servicios",
+    "framework": "Marco de Trabajo",
+    "background": "Formación",
+    "about": "Acerca de",
+    "home": "Inicio",
+    "beginInquiry": "Iniciar una Consulta",
+    "skipToInquiry": "Ir al formulario",
+    "logoAria": "Inicio de Ollin"
+  },
+  "footer": {
+    "tag": "Salud integrativa y vida regenerativa, a través de las escalas del ser, la familia, el hogar y la tierra.",
+    "email": "hello@ollin.bio",
+    "copyright": "© 2026 Ollin.bio · Alan Prado",
+    "tagline": "Salud Integrativa · Vida Regenerativa"
+  },
+  "home": {
+    "hero": {
+      "title": "OLLIN",
+      "l2": "Vida Regenerativa",
+      "sub": "Una práctica integrada de salud, espacio y ecología.",
+      "ctaServices": "Ver Servicios",
+      "ctaInquiry": "Iniciar una Consulta"
+    },
+    "opening": {
+      "lede": "La mayoría de los enfoques de salud, desarrollo y ecología abordan un solo ámbito a la vez.",
+      "fragments": [
+        "La salud se trata por separado del entorno que la determina.",
+        "La práctica personal está desconectada de la familia, el hogar y la tierra.",
+        "La agricultura extrae del suelo en lugar de regenerar los sistemas vivos de los que depende.",
+        "La arquitectura se diseña sin referencia a las personas que la habitan."
+      ],
+      "close": "Ollin trabaja a través de estos ámbitos, acompañando a personas, familias, propietarios de tierra y proyectos de desarrollo en la intersección de la salud, la ecología, el diseño espacial y el desarrollo humano."
+    },
+    "who": {
+      "eyebrow": "Para Quién Es Esto",
+      "title": "Al servicio de personas en distintos campos y etapas de la vida",
+      "cards": [
+        {
+          "role": "Personas en busca de salud",
+          "desc": "Personas que atraviesan fatiga crónica, alteraciones digestivas, desequilibrio hormonal, mal sueño o pérdida de vitalidad, y que desean atender los patrones de raíz mediante evaluación integrativa y protocolos estructurados de estilo de vida."
+        },
+        {
+          "role": "Parejas que se preparan para la concepción",
+          "desc": "Personas y parejas que desean preparar cuerpo, mente y hogar para la concepción con verdadera profundidad, a partir de marcos clásicos de preconcepción y salud reproductiva integrativa."
+        },
+        {
+          "role": "Familias que construyen cultura de hogar",
+          "desc": "Familias que buscan ritmos diarios más sanos, sistemas de nutrición y entornos de vida saludables, incluyendo evaluación de salud espacial, diseño de rutinas y planeación del bienestar familiar a largo plazo."
+        },
+        {
+          "role": "Practicantes y estudiantes serios",
+          "desc": "Quienes ya practican yoga, meditación, mantra o artes marciales y desean un diseño diario estructurado, integración de la práctica y profundidad educativa en disciplinas clásicas."
+        },
+        {
+          "role": "Propietarios y custodios de tierra",
+          "desc": "Propietarios, agricultores y custodios que construyen sistemas regenerativos de alimento y medicina, con atención a la biología del suelo, los sistemas de agua, el cultivo de plantas medicinales y la soberanía alimentaria del hogar."
+        }
+      ]
+    },
+    "servicesPreview": {
+      "eyebrow": "Áreas de Consulta",
+      "title": "Cuatro campos de trabajo, una sola práctica",
+      "cards": [
+        {
+          "num": "Salud y Vitalidad",
+          "title": "Evaluación integrativa de salud, práctica diaria, nutrición y preconcepción",
+          "link": "Explorar servicios de salud"
+        },
+        {
+          "num": "Hogar y Espacio",
+          "title": "Evaluación de salud espacial Vastu y desarrollo del hogar",
+          "link": "Explorar servicios de espacio"
+        },
+        {
+          "num": "Tierra, Ecología y Agricultura",
+          "title": "Evaluación regenerativa de tierra y sistemas de alimento del hogar",
+          "link": "Explorar servicios de tierra"
+        },
+        {
+          "num": "Desarrollo y Estrategia",
+          "title": "Asesoría en desarrollo regenerativo para proyectos de tierra y comunidad",
+          "link": "Explorar asesoría en desarrollo"
+        }
+      ],
+      "viewAll": "Ver Todos los Servicios"
+    },
+    "process": {
+      "eyebrow": "Cómo Funciona",
+      "title": "El Proceso",
+      "steps": [
+        {
+          "n": "I",
+          "title": "Envía tu consulta",
+          "body": "Selecciona tu área y completa el formulario correspondiente. Cada envío se revisa personalmente antes de confirmar cualquier sesión."
+        },
+        {
+          "n": "II",
+          "title": "Revisión y agenda",
+          "body": "Recibirás respuesta en un plazo de tres a cinco días con opciones de agenda para una sesión en línea o presencial."
+        },
+        {
+          "n": "III",
+          "title": "Consulta inicial",
+          "body": "Una sesión estructurada que cubre patrones actuales, historia y objetivos en todos los campos relevantes de la práctica."
+        },
+        {
+          "n": "IV",
+          "title": "Protocolo o evaluación por escrito",
+          "body": "Recomendaciones específicas por escrito, adaptadas a tu área de consulta, ya sea salud, espacio, tierra o desarrollo. Precisas, no generales."
+        },
+        {
+          "n": "V",
+          "title": "Integración continua",
+          "body": "Las sesiones de seguimiento refinan el trabajo conforme cambian las condiciones, el cuerpo responde y surgen nuevas preguntas."
+        }
+      ]
+    },
+    "intake": {
+      "eyebrow": "Comienza el Trabajo",
+      "title": "Consulta para Nuevos Visitantes",
+      "sub": "Selecciona el área que mejor describa lo que buscas. Cada formulario se revisa personalmente antes de agendar cualquier sesión.",
+      "tabs": {
+        "health": "Salud y Vitalidad",
+        "nutrition": "Nutrición",
+        "conception": "Preconcepción",
+        "routine": "Rutina Diaria",
+        "home": "Hogar y Espacio",
+        "land": "Tierra y Agricultura"
+      }
+    }
+  },
+  "forms": {
+    "submit": "Enviar Consulta",
+    "submitting": "Enviando…",
+    "successMessage": "Recibido. Tendrás respuesta en un plazo de tres a cinco días.",
+    "errorMessage": "Algo salió mal. Por favor intenta de nuevo, o escribe directamente a hello@ollin.bio.",
+    "selectPlaceholder": "Selecciona",
+    "health": {
+      "title": "Salud Integrativa y Vitalidad",
+      "desc": "Cubre constitución, digestión, sueño, energía y patrones actuales de salud. Sé lo más específico posible; tus respuestas dan forma a toda la consulta.",
+      "note": "Ollin ofrece educación en salud integrativa y orientación de estilo de vida, no diagnóstico, tratamiento ni atención médica clínica."
+    },
+    "nutrition": {
+      "title": "Nutrición y Salud Digestiva",
+      "desc": "Mapea tu salud digestiva, patrones de alimentación, origen de tus alimentos y relación con la nutrición.",
+      "note": "Ollin ofrece educación nutricional y orientación dietética integrativa, no atención dietética clínica ni terapia médica nutricional."
+    },
+    "conception": {
+      "title": "Preconcepción y Salud Reproductiva",
+      "desc": "Cubre preparación física, salud hormonal, nutrición, estado emocional e intención del hogar. Complétenlo juntos si aplica.",
+      "note": "Ollin no ofrece tratamiento de fertilidad ni atención médica reproductiva. Esto es orientación de salud integrativa y apoyo de estilo de vida."
+    },
+    "routine": {
+      "title": "Rutina Diaria y Práctica Corporal",
+      "desc": "Mapea tu estructura diaria actual, movimiento, respiración y práctica de meditación. Describe tu vida real, no la que aspiras tener.",
+      "note": "Esta consulta cubre estructura de estilo de vida, diseño de práctica corporal y ritmo diario, no psicología clínica ni intervención terapéutica."
+    },
+    "home": {
+      "title": "Hogar, Espacio y Desarrollo Familiar",
+      "desc": "Evalúa tu entorno de vida y el ritmo del hogar, cubriendo salud espacial, estructura diaria y bienestar familiar.",
+      "note": "La consulta de salud espacial se basa en Vastu Shastra y marcos de salud ambiental. La consulta de desarrollo familiar se basa en marcos ayurvédicos del hogar y principios de desarrollo humano. Ninguna sustituye servicios médicos, terapéuticos o arquitectónicos con licencia."
+    },
+    "land": {
+      "title": "Tierra, Agricultura y Desarrollo Regenerativo",
+      "desc": "Para quienes tienen tierra, proyectos de desarrollo o propiedades ecológicas y buscan integrar sistemas regenerativos, salud y custodia a largo plazo.",
+      "note": "Esta consulta une salud integrativa, custodia ecológica de la tierra y asesoría en desarrollo regenerativo. No es consultoría agronómica con licencia ni arquitectura de paisaje, aunque complementa esos servicios."
+    }
+  },
+  "services": {
+    "eyebrow": "Áreas de Consulta",
+    "title": "Servicios",
+    "sub": "Nueve consultas en salud, hogar, tierra y desarrollo. Cada una comienza con un formulario estructurado y produce un protocolo o evaluación por escrito, específico a tu situación.",
+    "clusters": [
+      {
+        "label": "Salud y Vitalidad",
+        "items": [
+          {
+            "num": "I",
+            "title": "Evaluación Integrativa de Salud",
+            "pillars": [
+              "Nadi pariksha",
+              "Constitución",
+              "Digestión",
+              "Sueño",
+              "Salud hormonal",
+              "Protocolo estacional"
+            ],
+            "body": "Una evaluación integral basada en sistemas que cubre constitución, función digestiva, arquitectura del sueño, equilibrio hormonal y patrones de estilo de vida. Incluye lectura de pulso (nadi pariksha), evaluación de lengua y tejidos, y un protocolo escrito sobre alimentación, rutina diaria y correcciones estacionales. Para quienes atraviesan fatiga crónica, agotamiento inmune, alteración digestiva o desregulación sistémica y desean atender las causas de raíz, no los síntomas.",
+            "cta": "Agendar una Evaluación de Salud",
+            "path": "health",
+            "variant": "gold"
+          },
+          {
+            "num": "II",
+            "title": "Rutina Diaria y Práctica Corporal",
+            "pillars": [
+              "Dinacharya",
+              "Movimiento Kalari",
+              "Siddha yoga",
+              "Pranayama",
+              "Meditación",
+              "Mantra",
+              "Abhyanga",
+              "Marma"
+            ],
+            "body": "Diseño estructurado de dinacharya, la ciencia ayurvédica del ritmo diario, integrado con movimiento somático arraigado en Kalari Payattu y Siddha yoga, donde postura, respiración y mantra se sostienen como una sola disciplina, junto con meditación y protocolos de autocuidado. Cubre la estructura de mañana y noche, la variación estacional y la construcción progresiva de un marco diario que sostiene la salud, agudiza la atención y se mantiene a lo largo de una vida plena y activa.",
+            "cta": "Diseña tu Estructura Diaria",
+            "path": "routine",
+            "variant": "gold"
+          },
+          {
+            "num": "III",
+            "title": "Nutrición y Salud Digestiva",
+            "pillars": [
+              "Evaluación de agni",
+              "Compatibilidad dóshica",
+              "Ritmo de comidas",
+              "Alimentación estacional",
+              "Origen de alimentos",
+              "Práctica de cocina"
+            ],
+            "body": "Evaluación dietética fundamentada en la ciencia nutricional ayurvédica, que cubre agni (fuego digestivo), compatibilidad dóshica, calidad de los alimentos, variación estacional y horarios de comida, integrada con el pensamiento de sistemas alimentarios regenerativos. Abarca todo el espectro, desde la restauración digestiva hasta el origen de los alimentos y la cocina como práctica de salud. Para quienes desean reconstruir su relación con la comida desde los primeros principios.",
+            "cta": "Iniciar Formulario de Nutrición",
+            "path": "nutrition",
+            "variant": "gold"
+          },
+          {
+            "num": "IV",
+            "title": "Preconcepción y Salud Reproductiva",
+            "pillars": [
+              "Construcción de ojas",
+              "Vitalidad reproductiva",
+              "Protocolos de garbhadhana",
+              "Ritmo hormonal",
+              "Preparación del hogar"
+            ],
+            "body": "Un enfoque estructurado para preparar cuerpo, mente y hogar para la concepción, comenzando meses antes de intentarlo. Cubre vitalidad reproductiva, ritmo hormonal, preparación dietética, regulación del sistema nervioso, preparación emocional y estabilidad del hogar. Se basa en los protocolos ayurvédicos de garbhadhana, la práctica de Siddha yoga y marcos integrativos de salud reproductiva. Para personas y parejas que desean una preparación genuina, no solo seguimiento clínico.",
+            "cta": "Iniciar Formulario de Preconcepción",
+            "path": "conception",
+            "variant": "gold"
+          }
+        ]
+      },
+      {
+        "label": "Hogar y Espacio",
+        "items": [
+          {
+            "num": "V",
+            "title": "Evaluación Vastu y de Salud Espacial",
+            "pillars": [
+              "Orientación",
+              "Entorno de descanso",
+              "Ecología de cocina",
+              "Aire y luz",
+              "Carga electromagnética",
+              "Espacio de práctica"
+            ],
+            "body": "Evaluación de un hogar, oficina o sitio de desarrollo a través de Vastu Shastra, la ciencia clásica india de la orientación espacial, la direccionalidad y la correspondencia ambiental, junto con marcos contemporáneos de salud ambiental. Cubre entorno de descanso, ecología de cocina, luz natural, calidad del aire, carga electromagnética y espacio de altar y práctica. Se entrega como evaluación escrita con recomendaciones priorizadas, mediante revisión en línea o visita presencial al sitio.",
+            "cta": "Solicitar una Evaluación de Espacio",
+            "path": "home",
+            "variant": "cream"
+          },
+          {
+            "num": "VI",
+            "title": "Ritmo del Hogar y Desarrollo Familiar",
+            "pillars": [
+              "Rutina familiar",
+              "Sistemas de nutrición",
+              "Entorno de descanso",
+              "Cultura de aprendizaje",
+              "Ritmo estacional"
+            ],
+            "body": "Una consulta para familias que buscan crear ritmos diarios más sanos, sistemas de alimentación y fundamentos culturales en el hogar. Cubre diseño de rutinas del hogar, nutrición familiar, entornos de desarrollo para los niños, patrones de sueño y descanso, vida estacional e integración de la práctica compartida. Se basa en marcos ayurvédicos de salud familiar, principios de desarrollo humano y diseño ecológico del hogar.",
+            "cta": "Consultar sobre Desarrollo Familiar",
+            "path": "home",
+            "variant": "cream"
+          }
+        ]
+      },
+      {
+        "label": "Tierra, Ecología y Agricultura",
+        "items": [
+          {
+            "num": "VII",
+            "title": "Evaluación Regenerativa de Tierra",
+            "pillars": [
+              "Biología del suelo",
+              "Sistemas de agua",
+              "Agroforestería",
+              "Biodiversidad",
+              "Plantas medicinales",
+              "Plan de implementación"
+            ],
+            "body": "Una revisión ecológica de tierra, agua, suelo, vegetación, sistemas alimentarios y oportunidades regenerativas. Cubre la correspondencia entre biología del suelo y salud humana, sistemas de agua, potencial agroforestal, cultivo de plantas medicinales y biodiversidad. Produce un plan de implementación por fases. Para propietarios, agricultores, centros de retiro y familias que compran o custodian tierra y desean una estrategia ecológica coherente.",
+            "cta": "Solicitar una Evaluación de Tierra",
+            "path": "land",
+            "variant": "stone"
+          },
+          {
+            "num": "VIII",
+            "title": "Sistemas de Alimento y Medicina del Hogar",
+            "pillars": [
+              "Huerto de cocina",
+              "Bosque comestible",
+              "Hierbas medicinales",
+              "Semillas criollas",
+              "Fermentación",
+              "Soberanía alimentaria"
+            ],
+            "body": "Diseño y planeación para la soberanía alimentaria a escala del hogar. Cubre el trazado del huerto de cocina, la arquitectura del bosque comestible, el cultivo de hierbas medicinales, la selección de semillas criollas, sistemas de fermentación e integración de la producción de alimentos con la práctica diaria de salud. Se basa en la ciencia ayurvédica de los alimentos, la etnobotánica, el diseño de permacultura y los principios de la agricultura regenerativa. Para hogares listos para construir una relación seria con su propio alimento y medicina.",
+            "cta": "Diseña tu Sistema de Alimento",
+            "path": "land",
+            "variant": "stone"
+          }
+        ]
+      },
+      {
+        "label": "Desarrollo, Comunidad y Estrategia",
+        "items": [
+          {
+            "num": "IX",
+            "title": "Asesoría en Desarrollo Regenerativo",
+            "pillars": [
+              "Posicionamiento de desarrollo",
+              "Integración de bienestar",
+              "Diseño ecológico",
+              "Programación comunitaria",
+              "Estrategia de tierra",
+              "Marco de custodia",
+              "Narrativa del proyecto"
+            ],
+            "body": "Asesoría estratégica para proyectos inmobiliarios, de tierra y de desarrollo comunitario que integran ecología, bienestar, cultura, educación y custodia a largo plazo. Cubre posicionamiento de desarrollo, estrategia de integración de bienestar, prioridades de diseño ecológico, programación comunitaria, marcos de custodia y narrativa del proyecto. Para desarrolladores, propietarios, centros de retiro y proyectos de comunidad ecológica donde ecología, salud, cultura y capital deben trabajar juntos.",
+            "cta": "Conversar sobre un Proyecto de Desarrollo",
+            "path": "land",
+            "variant": "stone",
+            "full": true
+          }
+        ]
+      }
+    ],
+    "levels": {
+      "eyebrow": "Cómo Trabajar Juntos",
+      "title": "Niveles de Práctica",
+      "sub": "Todo el trabajo comienza con una consulta personal. Cada nivel está diseñado para una profundidad de compromiso y una etapa del trabajo distintas.",
+      "items": [
+        {
+          "tier": "Fundamento",
+          "name": "Consulta Única",
+          "price": "Una sesión · Protocolo escrito incluido",
+          "features": [
+            "Consulta inicial de 90 minutos",
+            "Evaluación constitucional o del sitio",
+            "Protocolo escrito con recomendaciones específicas y aplicables",
+            "Un intercambio de seguimiento dentro de 30 días"
+          ],
+          "note": "Adecuado para un área enfocada, ya sea salud, nutrición, espacio o tierra, donde deseas un punto de partida claro y orientación escrita."
+        },
+        {
+          "tier": "Inmersivo",
+          "name": "Protocolo de Tres Meses",
+          "price": "Tres sesiones · Protocolo evolutivo · Apoyo por correo",
+          "feature": true,
+          "features": [
+            "Consulta inicial de 90 minutos",
+            "Dos sesiones de seguimiento a lo largo de tres meses",
+            "Protocolo escrito refinado y actualizado en cada sesión",
+            "Ajuste estacional de dieta y rutina",
+            "Apoyo por correo entre sesiones"
+          ],
+          "note": "Para quienes construyen un fundamento coherente: salud, estructura diaria, alimentación y entorno atendidos en conjunto a lo largo del tiempo."
+        },
+        {
+          "tier": "Sostenido",
+          "name": "Práctica Continua",
+          "price": "Sesiones trimestrales · Arco anual · Acceso prioritario",
+          "features": [
+            "Consultas estacionales alineadas a los cuatro ritus",
+            "Refinamiento del protocolo cada trimestre",
+            "Profundización progresiva en salud, práctica, hogar y tierra",
+            "Agenda prioritaria y acceso entre sesiones",
+            "Revisión anual de salud y estilo de vida"
+          ],
+          "note": "Para quienes se comprometen con un trabajo sostenido en múltiples áreas de la vida, la salud y el desarrollo a lo largo de un ciclo anual."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Comienza donde comienza el trabajo",
+      "body": "Todo compromiso comienza con una breve consulta, revisada personalmente antes de agendar cualquier sesión. Primero el ritmo; todo lo demás se construye sobre él."
+    }
+  },
+  "framework": {
+    "eyebrow": "El Marco de Trabajo",
+    "title": "Desarrollo Humano a Través de Escalas",
+    "sub": "La salud, la ecología y el desarrollo humano son expresiones de una sola pregunta: ¿qué condiciones sostienen personas sanas, entornos sanos y un florecimiento a largo plazo? Ollin trabaja a través de seis escalas de la vida.",
+    "cyclesEyebrow": "Ciclos y Correspondencia",
+    "cyclesBody1": "Todo sistema biológico, ecológico y cultural opera en ritmo. Los ciclos circadianos, estacionales, lunares y generacionales gobiernan la salud individual, la vida familiar, la productividad agrícola y la resiliencia comunitaria. Cuando los patrones humanos pierden correspondencia con estos ciclos, las consecuencias son sistémicas y a menudo se atribuyen erróneamente a fallas individuales.",
+    "cyclesBody2": "Ollin se nutre de la cosmología Nawi Ollin, la ciencia estacional ayurvédica y la ecología regenerativa para situar el desarrollo humano dentro de los órdenes mayores del tiempo, y para construir marcos que funcionan a través de las seis escalas.",
+    "cycles": [
+      "Ritmo circadiano",
+      "Adaptación estacional",
+      "Tiempo lunar",
+      "Dinacharya",
+      "Tonalpohualli",
+      "Ciclos generacionales"
+    ],
+    "scales": [
+      {
+        "n": "I",
+        "name": "SER",
+        "body": "Salud, disciplina, atención, movimiento, nutrición y desarrollo personal."
+      },
+      {
+        "n": "II",
+        "name": "FAMILIA",
+        "body": "Concepción, cultura del hogar, relaciones, ritmo diario y bienestar familiar."
+      },
+      {
+        "n": "III",
+        "name": "HOGAR",
+        "body": "Arquitectura, orientación, luz, aire, orden espacial y el entorno del hogar."
+      },
+      {
+        "n": "IV",
+        "name": "TIERRA",
+        "body": "Alimento, agua, suelo, ecología, agricultura y custodia de la tierra a largo plazo."
+      },
+      {
+        "n": "V",
+        "name": "COMUNIDAD",
+        "body": "Cultura, educación, ecología, valores compartidos y desarrollo colectivo."
+      },
+      {
+        "n": "VI",
+        "name": "CONTINUIDAD",
+        "body": "Custodia a largo plazo del conocimiento, las instituciones, la cultura y el lugar."
+      }
+    ],
+    "quote": "Un cuerpo en ritmo. Un hogar en orden.\nTierra en ciclo. Una mente en práctica.",
+    "quoteAttr": "El Propósito del Trabajo en Ollin",
+    "cta": {
+      "title": "Trae una escala de tu vida",
+      "body": "Una pregunta de salud, un hogar, un terreno o un proyecto. El trabajo te encuentra en la escala que necesita atención primero."
+    }
+  },
+  "background": {
+    "eyebrow": "Formación y Estudios",
+    "title": "Áreas de Estudio",
+    "sub": "Las disciplinas detrás del trabajo, abordadas mediante estudio formal, aprendizaje de linaje y aplicación vivida.",
+    "disciplines": [
+      {
+        "name": "Salud Integrativa y Ayurveda",
+        "body": "Estudio formal en Bienestar Ayurvédico y Salud Integrativa en Maharishi International University. Cubre evaluación constitucional (prakriti), nadi pariksha, dinacharya, ciencia digestiva, medicina del estilo de vida, salud preventiva, nutrición, salud pública, terapia marma y protocolos estacionales para la vitalidad a largo plazo."
+      },
+      {
+        "name": "Agricultura Orgánica Regenerativa",
+        "body": "Estudio formal en Maharishi International University en salud del suelo, biodiversidad, sistemas de agua, ecología de sistemas alimentarios, agroforestería, diseño de permacultura y la relación entre los sistemas agrícolas y la salud comunitaria."
+      },
+      {
+        "name": "Kalari Payattu y Kalari Chikitsa",
+        "body": "Cultura física de Kerala que combina disciplina marcial, movimiento somático, coordinación, trabajo de respiración y el sistema terapéutico de Kalari Chikitsa. Estudiado mediante instrucción de linaje en movimiento, movilidad, desarrollo físico y preservación de la salud."
+      },
+      {
+        "name": "Vastu Shastra y Arquitectura India",
+        "body": "Estudio de Vastu Shastra e historia de la arquitectura india en Bhishma School of Indic Studies, cubriendo principios espaciales, direccionalidad, diseño de templos, simbolismo y la relación entre los entornos construidos, la cultura, el ritual y la vida comunitaria."
+      },
+      {
+        "name": "Sri Vidya y Tantra de Kerala",
+        "body": "Estudio continuo en formato gurukula de Sri Vidya, Tantra Shastra de Kerala, Siddha yoga, mantra, sistemas rituales, Antarika Puja, Saparivara Puja, Homa, yantra, cosmología y guru parampara a través del Sri Vidya Tantra Peedom. Se presenta con fines educativos; no implica autoridad de iniciación ni transmisión de prácticas avanzadas."
+      },
+      {
+        "name": "Jyotisha",
+        "body": "Astrología clásica india como marco interpretativo para comprender tiempos, ciclos, tendencias, vocación, relaciones y patrones de desarrollo. Se aplica para apoyar la reflexión personal, la planeación anual y la dirección de vida, no la predicción fatalista."
+      },
+      {
+        "name": "Nawi Ollin y Cosmología Mesoamericana",
+        "body": "Estudio del Tonalpohualli, el Xiuhpohualli, las líneas de Tezcatlipoca y los marcos mesoamericanos para comprender el tiempo, la ecología, el autoconocimiento, el desarrollo humano y la continuidad cultural. Estudiado a través de la Universidad Nacional Autónoma de México y una indagación continua arraigada en los paisajes de la Península de Yucatán."
+      },
+      {
+        "name": "Estudios de la Conciencia y Práctica Contemplativa",
+        "body": "Estudio de la atención, la conciencia, modelos de desarrollo, meditación, mantra, japa, alfabetización ritual, sistemas simbólicos y el papel de la práctica disciplinada en la vida diaria del hogar, integrado a través de marcos védicos, tántricos, mesoamericanos y contemporáneos."
+      },
+      {
+        "name": "Diseño Comunitario y Desarrollo Regenerativo",
+        "body": "Trabajo aplicado que abarca asesoría inmobiliaria, estrategia de tierra, formación de capital, planeación comunitaria, integración ecológica, posicionamiento de bienestar, programación cultural y custodia a largo plazo. Conectado con la práctica activa de asesoría a través de Regenera, enfocado en proyectos donde ecología, salud, cultura y desarrollo se intersectan a escala de tierra, comunidad e infraestructura.",
+        "full": true
+      }
+    ],
+    "cta": {
+      "title": "Pon esta formación a trabajar",
+      "body": "Cada consulta se apoya en estas disciplinas, aplicadas a tu situación específica."
+    }
+  },
+  "about": {
+    "eyebrow": "Acerca de",
+    "title": "Alan Prado",
+    "sub": "Las preguntas, los lugares y los estudios detrás de Ollin.",
+    "heading": "Alan Prado",
+    "paragraphs": [
+      "Mi trabajo explora las relaciones entre salud, ecología, cultura y desarrollo humano. La pregunta central ha sido consistente a través de las disciplinas: ¿qué condiciones sostienen a personas, familias, comunidades y entornos sanos a lo largo del tiempo?",
+      "Crecer en México y pasar años en la Península de Yucatán despertó preguntas más profundas sobre cómo las comunidades integraban sistemas de agua, producción de alimentos, conocimiento ecológico, arquitectura y vida cultural en entornos coherentes, capaces de sostener generaciones de desarrollo humano. Esas preguntas llevaron a estudios formales sobre la cultura maya en la Universidad Nacional Autónoma de México.",
+      "Siguieron estudios en Agricultura Orgánica Regenerativa y Bienestar Ayurvédico y Salud Integrativa en Maharishi International University, arquitectura india en Bhishma School of Indic Studies, y un aprendizaje continuo en Sri Vidya, Tantra de Kerala, Siddha yoga, Jyotisha, Vastu Shastra y Kalari Payattu en entornos de tipo gurukula.",
+      "Este trabajo se aplica a la escala del individuo, el hogar, la tierra y el proyecto de desarrollo: a través de Ollin para la salud personal y familiar, y a través de Regenera para tierra, capital e infraestructura ecológica."
+    ],
+    "teachersEyebrow": "Linaje y Maestros",
+    "teachersTitle": "Maestros",
+    "teachersSub": "Este trabajo se sostiene en relaciones con maestros vivos, cada uno portador de una línea de conocimiento distinta. El estudio con ellos es continuo.",
+    "teachers": [
+      {
+        "name": "Tonawaka Kwauhtlinxan",
+        "role": "Temaxtianitl · Ciencias Toltecas y Aztecas · México",
+        "bio": "Tonawaka es un Temaxtianitl dentro de la transmisión continua de Tezcatlipoca, la línea Nawi Ollin de las ciencias toltecas y aztecas transmitida de instructor a aprendiz y de padre a hijo. Su trabajo se centra en las disciplinas del espejo humeante: la práctica del espejo de obsidiana, el autoconocimiento a través del calendario y la ceremonia en correspondencia con las cuentas del tiempo, solsticio y equinoccio, luna llena, el ciclo de veinte días, temazcal, siembra de nombre, bodas y ciclos mortuorios. Ha llevado este sistema de salud y ceremonia por todo México desde 1992, guiando grupos de aprendizaje e impartiendo conferencias en centros educativos nacionales e internacionales.",
+        "image": "teacher-tonawaka-kwauhtlinxan",
+        "alt": "Altar ceremonial de las ciencias tolteca y azteca"
+      },
+      {
+        "name": "Sri Yuganandanatha",
+        "role": "Siddha Tantra · Yoga · Kerala",
+        "bio": "Sri Yuganandanatha, Jithesh Sathyan, enseña Siddha yoga y Tantra sadhana como una sola disciplina continua, en la que postura, respiración, mantra y ritual se sostienen juntos en lugar de practicarse por separado. Formado en Kerala bajo múltiples gurús y sampradayas, porta los sistemas Dakshinachara de Kerala, Dravida Kaula Vama, Misrachara, védico y Samaya, con krama diksha y purna diksha en Srividya. Su maestro principal es Brahmasree T.D.P. Nambootiri de Mantra Vidya Peedom, con quien aprendió tantra puja, homa, jyotisham y vastu vidya, con transmisión adicional en Siddha yoga, jyotisha drávida y hamsa vidya.",
+        "image": "teacher-sri-yuganandanatha",
+        "alt": "Sri Yuganandanatha"
+      },
+      {
+        "name": "Tjok Gde Kerthyasa",
+        "role": "Homeópata y Científico de la Salud · Tirta Usada · Bali",
+        "bio": "Tjok Gde trabaja en el punto de encuentro entre el conocimiento curativo balinés y la medicina natural occidental: homeopatía, alquimia, embriología sagrada y pensamiento antroposófico, unidos en el método terapéutico Pranafas y los remedios Tirta Usada que fundó en 2014. Tiene una Licenciatura en Ciencias de la Salud en Homeopatía por la University of New England y un Diploma Avanzado de Homeopatía por el Australasian College of Natural Therapies, Sídney. Conocido en toda Indonesia por el programa de televisión Nature Life y su libro Sehat Alami Secara Holistic, es también maestro de té practicante.",
+        "image": "teacher-tjok-gde-kerthyasa",
+        "alt": "Tjok Gde Kerthyasa"
+      },
+      {
+        "name": "Ashan Vipin Das",
+        "role": "Gurukkal · Athma Kalari · Kerala",
+        "bio": "En la línea que porta Vipindas Gurukkal, el Kalari no es un arte marcial confinado a horas de entrenamiento sino una forma de vivir que ordena el día entero: disciplina física rigurosa unida al yoga clásico, la meditación y el uzhichal, el trabajo terapéutico con aceite del Kalari. Practicando desde los siete años, porta las formas Vadakkan, Madhyakerala y Kadathandan, recibidas de Sri Vijayan Gurukkal, Sri Jammal Kalari y Sri Babu Varghese. Fundó Athma Kalari en 2005, registrada ante la Kerala Kalaripayattu Association y la Indian Kalarippayattu Federation, y es maestro de terapia Marma de Kalari y de terapia ayurvédica y de yoga, tratando condiciones musculoesqueléticas y neurológicas.",
+        "image": "teacher-ashan-vipin-das",
+        "alt": "Práctica de Kalari en Kerala"
+      }
+    ],
+    "cta": {
+      "title": "Inicia una conversación",
+      "body": "Las consultas serias son bienvenidas, ya sea para salud, hogar, tierra o un proyecto de desarrollo."
+    }
+  }
+}
